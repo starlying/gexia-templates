@@ -1,0 +1,14 @@
+<stl:box>
+    <stl:data name="title" datatype="textarea" displayname="内容"  value="看着看着， 就累了<br> 星光也暗了"></stl:data>
+    <stl:data name="size" datatype="text" displayname="字号"  value="1em"></stl:data>
+    <stl:data name="color" datatype="color" displayname="文字颜色"  value="#21a675"></stl:data>
+    <stl:data name="border-color" datatype="color" displayname="边框颜色"  value="#21a675"></stl:data>
+    <stl:data name="background-color" datatype="color" displayname="背景颜色"  value="#ccc"></stl:data>
+    <stl:data name="border" datatype="text" displayname="边框相素"  value="2px"></stl:data>
+
+    <fieldset style="margin: 0.8em 0; font-size: {stl.data.size}; line-height: 1.4">
+     <section style="padding: 10px; border: {stl.data.border-color} dashed {stl.data.border}; font-size: {stl.data.size}; font-family: inherit; font-style: normal; font-weight: inherit; text-align: inherit; text-decoration: inherit; color: {stl.data.color}; background-color: {stl.data.background-color};">
+         <section>{stl.data.title}</section>
+     </section>
+</fieldset>
+</stl:box>

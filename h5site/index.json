@@ -1,0 +1,16 @@
+﻿[
+    {
+        "categoryName": "科技",
+        "categorySN": "technology",
+        "templates": [
+            {
+                "templateName": "gx-exponent",
+                "templateSN": "h5siteasdf000001",
+                "items": 7,
+                "thumbUrl": "template.jpg",
+                "templateUrl": "",
+                "description": ""
+            }
+        ]
+    }
+]

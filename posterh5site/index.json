@@ -1,0 +1,88 @@
+﻿[
+    {
+        "categoryName": "内容",
+        "categorySN": "d",
+        "templates": [
+            {
+                "templateName": "exponent-2",
+                "templateSN": "",
+                "items": 0,
+                "thumbUrl": "http://templates.gexia.com/h5site/technology/h5siteasdf000001/images/thumbnail/2.jpg",
+                "templateUrl": "/h5site/technology/h5siteasdf000001/2.html",
+                "description": ""
+            },
+            {
+                "templateName": "exponent-3",
+                "templateSN": "",
+                "items": 0,
+                "thumbUrl": "http://templates.gexia.com/h5site/technology/h5siteasdf000001/images/thumbnail/3.jpg",
+                "templateUrl": "/h5site/technology/h5siteasdf000001/3.html",
+                "description": ""
+            },
+            {
+                "templateName": "exponent-6",
+                "templateSN": "",
+                "items": 0,
+                "thumbUrl": "http://templates.gexia.com/h5site/technology/h5siteasdf000001/images/thumbnail/6.jpg",
+                "templateUrl": "/h5site/technology/h5siteasdf000001/6.html",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "categoryName": "菜单",
+        "categorySN": "a",
+        "templates": [
+            {
+                "templateName": "exponent-1",
+                "templateSN": "",
+                "items": 0,
+                "thumbUrl": "http://templates.gexia.com/h5site/technology/h5siteasdf000001/images/thumbnail/1.jpg",
+                "templateUrl": "/h5site/technology/h5siteasdf000001/1.html",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "categoryName": "图片列表",
+        "categorySN": "b",
+        "templates": [
+            {
+                "templateName": "exponent-5",
+                "templateSN": "",
+                "items": 0,
+                "thumbUrl": "http://templates.gexia.com/h5site/technology/h5siteasdf000001/images/thumbnail/5.jpg",
+                "templateUrl": "/h5site/technology/h5siteasdf000001/5.html",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "categoryName": "文字列表",
+        "categorySN": "c",
+        "templates": [
+            {
+                "templateName": "exponent-4",
+                "templateSN": "",
+                "items": 0,
+                "thumbUrl": "http://templates.gexia.com/h5site/technology/h5siteasdf000001/images/thumbnail/4.jpg",
+                "templateUrl": "/h5site/technology/h5siteasdf000001/4.html",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "categoryName": "底部",
+        "categorySN": "e",
+        "templates": [
+            {
+               "templateName": "exponent-7",
+                "templateSN": "",
+                "items": 0,
+                "thumbUrl": "http://templates.gexia.com/h5site/technology/h5siteasdf000001/images/thumbnail/7.jpg",
+                "templateUrl": "/h5site/technology/h5siteasdf000001/7.html",
+                "description": ""
+            }
+        ]
+    }
+]

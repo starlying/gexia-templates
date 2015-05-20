@@ -1,0 +1,15 @@
+<stl:box>
+        <stl:data name="title" datatype="textarea" displayname="标题" value="第一行标题<br>第二行标题"></stl:data>
+        <stl:data name="size" datatype="text" displayname="标题" value="1.8em"></stl:data>
+        <stl:data name="color" datatype="color" displayname="文字颜色"  value="#f2be45"></stl:data>
+        <stl:data name="scolor" datatype="color" displayname="文字颜色"  value="#000"></stl:data>
+
+        
+       <fieldset style="border: 0; margin: 1em 0 0.5em 0; clear: both">
+       <section style="border-bottom: 1px solid {stl.data.scolor}; text-align: left">
+       <section style="display: inline-block; box-sizing: border-box; padding: 0px; margin-bottom: -1px; line-height: 1.1; border-bottom-width: 6px; border-bottom-style: solid; border-color: {stl.data.color}; font-size: {stl.data.size}; font-family: inherit; font-style: normal; font-weight: inherit; text-align: left; text-decoration: inherit; color: {stl.data.color}; background-color: transparent;">
+       <section>{stl.data.title}</section>
+       </section>
+       </section>
+</fieldset>
+</stl:box>

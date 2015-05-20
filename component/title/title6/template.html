@@ -1,0 +1,18 @@
+<stl:box>
+        <stl:data name="title" datatype="text" displayname="标题" value="请输入标题"></stl:data>
+        <stl:data name="size" datatype="text" displayname="标题" value="2em"></stl:data>
+        <stl:data name="color" datatype="color" displayname="文字颜色"  value="#fff"></stl:data>
+        <stl:data name="number" datatype="text" displayname="序号" value="1"></stl:data>
+        <stl:data name="number-color" datatype="color" displayname="数字颜色" value="#f2be45"></stl:data>
+
+        <fieldset style="border:0;margin: 0.8em 0 0.5em 0" >
+        <section style="display: inline-block; float: left; width: 1.2em; height: 1.2em; border-radius: 50%; padding: 0.1em; margin-right: 0.3em; vertical-align: top; text-align: center; box-sizing: border-box; border: 1px solid {stl.data.number-color}; line-height: 1; font-size: 2em; font-family: inherit; font-style: normal; font-weight: bolder; text-decoration: inherit; color: {stl.data.number-color}; background-color: transparent;">
+        <section>{stl.data.number}</section>
+        </section>
+        <section style="margin-left: 0.3em; vertical-align: bottom">
+        <section style="line-height: 1.2; font-size: {stl.data.size}; font-family: inherit; font-style: normal; font-weight: inherit; text-align: inherit; text-decoration: inherit; color: {stl.data.color};">
+        <section>{stl.data.title}</section>
+        </section>
+        </section>
+        </fieldset>
+</stl:box>

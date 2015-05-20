@@ -1,0 +1,72 @@
+[
+    {
+        "categoryName": "品牌宣传",
+        "categorySN": "branding",
+        "templates": [
+            {
+                "templateName": "gx-SOLOMO",
+                "templateSN": "1d8cde80d6746115",
+                "items": 8,
+                "thumbUrl": "template.png",
+                "templateUrl": "",
+                "description": ""
+            },
+            {
+                "templateName": "gx-Cartier",
+                "templateSN": "282e3a1a6e35f408",
+                "items": 8,
+                "thumbUrl": "template.png",
+                "templateUrl": "",
+                "description": ""
+            },
+            {
+                "templateName": "gx-LifeJoy",
+                "templateSN": "2b3e6bb22688461b",
+                "items": 7,
+                "thumbUrl": "template.jpg",
+                "templateUrl": "",
+                "description": ""
+            },
+            {
+                "templateName": "gx-Guilin",
+                "templateSN": "675881211e27af6b",
+                "items": 8,
+                "thumbUrl": "template.jpg",
+                "templateUrl": "",
+                "description": ""
+            },
+            {
+                "templateName": "gx-Singapore",
+                "templateSN": "ad93086fff2e3705",
+                "items": 6,
+                "thumbUrl": "template.jpg",
+                "templateUrl": "",
+                "description": ""
+            },
+            {
+                "templateName": "gx-Wedding",
+                "templateSN": "dd1111aa99011111",
+                "items": 7,
+                "thumbUrl": "template.jpg",
+                "templateUrl": "",
+                "description": ""
+            },
+            {
+                "templateName": "gx-Orange",
+                "templateSN": "dd1111aa99011112",
+                "items": 6,
+                "thumbUrl": "template.jpg",
+                "templateUrl": "",
+                "description": ""
+            },
+            {
+                "templateName": "gx-House",
+                "templateSN": "cc2cefaa927911ef",
+                "items": 5,
+                "thumbUrl": "template.jpg",
+                "templateUrl": "",
+                "description": ""
+            }
+        ]
+    }
+]

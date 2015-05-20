@@ -1,0 +1,224 @@
+[
+    {
+        "categoryName": "标题",
+        "categorySN": "title",
+        "templates": [
+            {
+                "templateName": "title1",
+                "templateSN": "title1",
+                "items": 0,
+                "thumbUrl": "template.jpg",
+                "templateUrl": "template.html",
+                "description": ""
+            },
+            {
+                "templateName": "title2",
+                "templateSN": "title2",
+                "items": 0,
+                "thumbUrl": "template.jpg",
+                "templateUrl": "template.html",
+                "description": ""
+            },
+            {
+                "templateName": "title3",
+                "templateSN": "title3",
+                "items": 0,
+                "thumbUrl": "template.jpg",
+                "templateUrl": "template.html",
+                "description": ""
+            },
+            {
+                "templateName": "title4",
+                "templateSN": "title4",
+                "items": 0,
+                "thumbUrl": "template.jpg",
+                "templateUrl": "template.html",
+                "description": ""
+            },
+            {
+                "templateName": "title5",
+                "templateSN": "title5",
+                "items": 0,
+                "thumbUrl": "template.jpg",
+                "templateUrl": "template.html",
+                "description": ""
+            },
+            {
+                "templateName": "title6",
+                "templateSN": "title6",
+                "items": 0,
+                "thumbUrl": "template.jpg",
+                "templateUrl": "template.html",
+                "description": ""
+            },
+            {
+                "templateName": "title7",
+                "templateSN": "title7",
+                "items": 0,
+                "thumbUrl": "template.jpg",
+                "templateUrl": "template.html",
+                "description": ""
+            },
+            {
+                "templateName": "title8",
+                "templateSN": "title8",
+                "items": 0,
+                "thumbUrl": "template.jpg",
+                "templateUrl": "template.html",
+                "description": ""
+            },
+            {
+                "templateName": "title9",
+                "templateSN": "title9",
+                "items": 0,
+                "thumbUrl": "template.jpg",
+                "templateUrl": "template.html",
+                "description": ""
+            },
+            {
+                "templateName": "title10",
+                "templateSN": "title10",
+                "items": 0,
+                "thumbUrl": "template.jpg",
+                "templateUrl": "template.html",
+                "description": ""
+            },
+            {
+                "templateName": "title11",
+                "templateSN": "title11",
+                "items": 0,
+                "thumbUrl": "template.jpg",
+                "templateUrl": "template.html",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "categoryName": "文字排版",
+        "categorySN": "textmixed",
+        "templates": [
+            {
+                "templateName": "textmixed1",
+                "templateSN": "textmixed1",
+                "items": 0,
+                "thumbUrl": "template.jpg",
+                "templateUrl": "template.html",
+                "description": ""
+            },
+            {
+                "templateName": "textmixed2",
+                "templateSN": "textmixed2",
+                "items": 0,
+                "thumbUrl": "template.jpg",
+                "templateUrl": "template.html",
+                "description": ""
+            },
+            {
+                "templateName": "textmixed3",
+                "templateSN": "textmixed3",
+                "items": 0,
+                "thumbUrl": "template.jpg",
+                "templateUrl": "template.html",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "categoryName": "图文排版",
+        "categorySN": "imagemixed",
+        "templates": [
+            {
+                "templateName": "imagemixed1",
+                "templateSN": "imagemixed1",
+                "items": 0,
+                "thumbUrl": "template.jpg",
+                "templateUrl": "template.html",
+                "description": ""
+            },
+            {
+                "templateName": "imagemixed2",
+                "templateSN": "imagemixed2",
+                "items": 0,
+                "thumbUrl": "template.jpg",
+                "templateUrl": "template.html",
+                "description": ""
+            },
+            {
+                "templateName": "imagemixed3",
+                "templateSN": "imagemixed3",
+                "items": 0,
+                "thumbUrl": "template.jpg",
+                "templateUrl": "template.html",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "categoryName": "正文",
+        "categorySN": "text",
+        "templates": [
+            {
+                "templateName": "text1",
+                "templateSN": "text1",
+                "items": 0,
+                "thumbUrl": "template.jpg",
+                "templateUrl": "template.html",
+                "description": ""
+            },
+            {
+                "templateName": "text2",
+                "templateSN": "text2",
+                "items": 0,
+                "thumbUrl": "template.jpg",
+                "templateUrl": "template.html",
+                "description": ""
+            },
+            {
+                "templateName": "text3",
+                "templateSN": "text3",
+                "items": 0,
+                "thumbUrl": "template.jpg",
+                "templateUrl": "template.html",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "categoryName": "其它元素",
+        "categorySN": "otherelements",
+        "templates": [
+            {
+                "templateName": "otherelements1",
+                "templateSN": "otherelements1",
+                "items": 0,
+                "thumbUrl": "template.jpg",
+                "templateUrl": "template.html",
+                "description": ""
+            },
+            {
+                "templateName": "otherelements2",
+                "templateSN": "otherelements2",
+                "items": 0,
+                "thumbUrl": "template.jpg",
+                "templateUrl": "template.html",
+                "description": ""
+            },
+            {
+                "templateName": "otherelements3",
+                "templateSN": "otherelements3",
+                "items": 0,
+                "thumbUrl": "template.jpg",
+                "templateUrl": "template.html",
+                "description": ""
+            },
+            {
+                "templateName": "otherelements4",
+                "templateSN": "otherelements4",
+                "items": 0,
+                "thumbUrl": "template.jpg",
+                "templateUrl": "template.html",
+                "description": ""
+            }
+        ]
+    }
+]

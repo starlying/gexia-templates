@@ -1,0 +1,257 @@
+<stl:config>
+    <stl:style>
+        .site-one-form {
+            color: #93999a;
+            font-family: "Microsoft Yahei", Helvetica, sans-serif;
+            font-size: 12pt;
+            font-weight: normal;
+            letter-spacing: -0.025em;
+            line-height: 1.75em;
+        }
+        .site-one-ha {
+            color: inherit;
+            text-decoration: none;
+        }
+        .site-one-a.icon:before {
+            -moz-transition: color 0.2s ease-in-out;
+            -webkit-transition: color 0.2s ease-in-out;
+            -o-transition: color 0.2s ease-in-out;
+            -ms-transition: color 0.2s ease-in-out;
+            transition: color 0.2s ease-in-out;
+        }
+
+        .site-one-a.icon:hover:before {
+            color: #6ec7f5 !important;
+        }
+        .icon {
+            text-decoration: none;
+            border-bottom: none;
+            position: relative;
+        }
+        .icon:before {
+            -moz-osx-font-smoothing: grayscale;
+            -webkit-font-smoothing: antialiased;
+            font-family: FontAwesome;
+            font-style: normal;
+            font-weight: normal;
+            text-transform: none !important;
+        }
+        .site-one-b {
+            color: #626c6e;
+            font-weight: bold;
+        }
+        .site-one-em {
+            font-style: italic;
+        }
+        .site-one-h {
+            color: #626c6e;
+            font-weight: bold;
+            letter-spacing: -0.05em;
+            line-height: 1em;
+            margin: 0 0 1em 0;
+        }
+        .site-one-a {
+            -moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+            -webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+            -o-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+            -ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+            transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+            color: #6ec7f5;
+            text-decoration: none;
+        }
+        .site-one-a:hover {
+            border-bottom-color: transparent;
+            color: #6ec7f5 !important;
+        }
+        .site-one-a:hover {
+            border-bottom-color: transparent;
+            color: #6ec7f5 !important;
+        }
+        .button {
+            -moz-appearance: none;
+            -webkit-appearance: none;
+            -o-appearance: none;
+            -ms-appearance: none;
+            appearance: none;
+            -moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+            -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+            -o-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+            -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+            transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+            background-color: transparent;
+            border-radius: 6px;
+            border: 0;
+            color: #626c6e !important;
+            cursor: pointer;
+            display: inline-block;
+            height: 3.35em;
+            line-height: 3.5em;
+            padding: 0 4em;
+            text-align: center;
+            text-decoration: none;
+            white-space: nowrap;
+        }
+        .button.special {
+            background-color: #6ec7f5 !important;
+        }
+        .button.special:hover {
+            background-color: #86d0f7 !important;
+        }
+        #header {
+            background: #fff;
+            border-bottom: solid 1px #e2eaec;
+            width: 100%;
+            z-index: 10000;
+        }
+        #header h1 {
+            height: inherit;
+            left: 1em;
+            line-height: inherit;
+            position: absolute;
+            top: -7px;
+        }
+        #header h1 a {
+            text-decoration: none;
+            border: 0;
+            font-size: 20px;
+        }
+        #header h1 a:before {
+            -moz-osx-font-smoothing: grayscale;
+            -webkit-font-smoothing: antialiased;
+            font-family: FontAwesome;
+            font-style: normal;
+            font-weight: normal;
+            text-transform: none !important;
+        }
+        #header h1 a:before {
+            color: #fff !important;
+            text-shadow: 1px 0 0 #6ec7f5, -1px 0 0 #6ec7f5, 0 1px 0 #6ec7f5, 0 -1px 0 #6ec7f5;
+        }
+        #header h1 a:before {
+            color: #6ec7f5;
+            content: '\f0c2';
+            margin-right: 0.6em;
+        }
+        #nav {
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+
+        #nav:after {
+            clear: both;
+            content: '';
+            display: block;
+        }
+
+        #nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        #nav ul li {
+            display: block;
+            float: left;
+            padding: 0;
+        }
+
+        #nav ul li > .site-one-a, #nav ul li > span {
+            border: 0;
+            color: #626c6e;
+            display: block;
+            font-weight: bold;
+            padding: 0 1em;
+            font-size: 16px;
+        }
+
+        #nav ul li.special {
+            border-left: solid 1px #e2eaec;
+        }
+
+        #nav ul li.special > a, #nav ul li.special > span {
+            padding: 0 1.5em;
+        }
+
+        #nav ul li.special > .icon:before {
+            color: #c2cacc;
+            margin-right: 0.5em;
+        }
+
+        #nav ul li:not(.special) + .special {
+            margin-left: 0.75em;
+        }	
+
+        #nav #menuPanel-content {
+            display: none;
+        }
+    </stl:style>
+    <stl:style mediaType="pc">
+        #header {
+            height: 65px;
+            line-height: 65px;
+        }
+    </stl:style>
+    <stl:style mediaType="pad">
+        #header{
+            height: 48px;
+            line-height: 48px;
+        }
+        #nav ul li:not(.special) {
+            display: none;
+        }
+    </stl:style>
+    <stl:style mediaType="phone">
+        #nav ul li.special > .icon:before{
+            margin-right: 0;
+        }
+        #header{
+            height: 40px;
+            line-height: 40px;
+        }
+        #header h1{
+            top: -6px;
+            left: 10px;
+        }
+        #nav ul li.special {
+            width: 3.3em;
+        }
+        #nav ul li.special a {
+            overflow-x: hidden;
+            padding: 0;
+            position: relative;
+            width: 4em;
+        }
+        #nav ul li.special .phone-none {
+            display: none;
+        }
+        #nav ul li.special a:before {
+            left: 0;
+            position: absolute;
+            text-align: center;
+            text-indent: 0;
+            top: 0;
+            width: 4em;
+        }
+       #nav ul li:not(.special) {
+            display: none;
+        }
+    </stl:style>
+</stl:config>
+
+    <div id="header">
+        <h1 class="site-one-h">
+            <stl:a href="http://www.gexia.com" class="site-one-ha">Gexia</stl:a>
+        </h1>
+        <div id="nav">
+            <ul>
+                <li><stl:a href="#" class="site-one-a">走进阁下</stl:a></li>
+                <li><stl:a href="#" class="site-one-a">关于我们</stl:a></li>
+       
+                <li class="special">
+                    <stl:a href="#" class="site-one-a skel-layers-include icon fa-bars" data-action="toggleLayer" data-args="menuPanel" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer;"><span class="phone-none">菜单</span></stl:a>
+                    <div id="skel-layers-placeholder-menuPanel-content"></div>
+                </li>
+            </ul>
+        </div>
+    </div>

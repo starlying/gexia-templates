@@ -1,0 +1,12 @@
+<stl:box>
+    <stl:data name="color" datatype="color" displayname="颜色"  value="#4b5cc4"></stl:data>
+    <stl:data name="width" datatype="text" displayname="线宽"  value="1px"></stl:data>
+
+    <fieldset style="border:none;margin: 0.5em 0.3em">
+        <section style="border-color: {stl.data.color}; background-color: transparent !important;">
+        <section style="display: inline-block; float: left; width: 45%; margin-top: 0.2em; border: {stl.data.width} dotted {stl.data.color};"></section>
+        <section style="display: inline-block; float: right; width: 45%; margin-top: 0.2em; border: {stl.data.width} dotted {stl.data.color};"></section>
+        <section style="width: 0.5em; height: 0.5em; margin: auto; -webkit-transform: rotate(45deg); background-color: {stl.data.color};"></section>
+        </section>
+    </fieldset>
+</stl:box>

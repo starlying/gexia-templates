@@ -1,0 +1,61 @@
+<stl:config>
+    <stl:style color="#fff"  textAlign="center" lineHeight="1.5" animationName="bounceIn" animationDuration="1s" animationTimingFunction="ease" animationDelay="0" animationIterationCount="2">
+        box-sizing: border-box;
+    </stl:style>
+    <stl:style mediaType="pc" backgroundUrl="{stl.templateUrl}/images/pc_bg.jpg" backgroundSize="100% 100%" >          background-repeat: no-repeat;
+         background-position: center center; 
+    </stl:style>
+    
+    <stl:style height="100%" backgroundUrl="{stl.templateUrl}/images/mnls4.jpg"  to=".w4">
+        position: relative;margin: 0 auto;
+    </stl:style>
+    <stl:style mediaType="phone" backgroundSize="100% 100%"  to=".w4"></stl:style>
+    <stl:style mediaType="pad" backgroundSize="cover"  to=".w4"></stl:style>
+    <stl:style mediaType="pc" width="560px" margin="0 auto"  backgroundSize="100% auto" to=".w4">
+        overflow: hidden;  box-shadow: 0 0 15px #000;
+    </stl:style>
+    
+    <stl:style to=".w4-1">padding-bottom: 5px; position: absolute; width: 140%; top: 50%; left: -30%; -webkit-transform:  rotate(-13deg) translateZ(0); color:#000;</stl:style>
+    <stl:style mediaType="phone" to=".w4-1">height: 74px; margin-top: -76px; </stl:style>
+    <stl:style mediaType="pad" to=".w4-1">height: 190px;  margin-top: -95px; </stl:style>
+    <stl:style mediaType="pc" to=".w4-1">height: 190px; margin-top: -180px; </stl:style>
+    
+    <stl:style to=".w4-1-1">  background: rgba(242,200,36,0.8); padding:10px 0; padding-left: 20%;</stl:style>
+  
+    <stl:style to=".w4-2">  position: absolute;  top: 50%;  left: 50%;  -webkit-transform:  rotate(-13deg) translateZ(0);
+    width: 100%;  margin-left: -50%;   margin-top: 15px; color:#000;</stl:style>
+    <stl:style mediaType="phone" to=".w4-2"> font-size: 18px;    line-height: 22px;    height: 66px;</stl:style>
+    <stl:style mediaType="pad" to=".w4-2">    font-size: 38px;    line-height: 40px;    padding: 20px;    height: 116px;
+    margin-left: -313px;    margin-top: -5px;</stl:style>
+    <stl:style mediaType="pc" to=".w4-2">margin-top: -100px;</stl:style>
+   
+    <stl:style to=".lx"> -webkit-transform: skew(-40deg,0deg);   display: block;   width: 180%; margin-left: -30%; height: 100%;   position: absolute;   left: 0;   top: 0;  background: rgba(242,200,36,0.5);</stl:style>
+</stl:config>
+
+</style>
+<div class="w4">
+    <div class="w4-1">
+        <div class="w4-1-1">
+            <stl:textarea>
+                <stl:style fontWeight="700" marginRight="10px"></stl:style>
+                <stl:style mediaType="phone" fontSize="35px"></stl:style>
+                <stl:style mediaType="pad" fontSize="70px"></stl:style>
+                <stl:style mediaType="pc" fontSize="50px"></stl:style>
+                《夏·宫》
+            </stl:textarea>
+        </div>
+    </div>
+    <div class="w4-2">
+        <div class="w4-2-1">
+            <stl:editor>
+                <stl:style>z-index:1;</stl:style>
+                <stl:style mediaType="phone" fontSize="20px" lineHeight="30px" ></stl:style>
+                <stl:style mediaType="pad" fontSize="40px" lineHeight="55px" textAlign="left"></stl:style>
+                <stl:style mediaType="pc" fontSize="30px"></stl:style>
+                打造更适合多数中国人的夏宫，<br/>
+                让少数人的梦想变成所有人的梦想！
+            </stl:editor>
+            <div class="lx"></div>
+        </div>
+    </div>
+</div>

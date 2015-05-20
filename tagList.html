@@ -1,0 +1,55 @@
+﻿<stl:a
+    linkType="href/modal/poster/session"
+    href="http://www.baidu.com"
+    posterIndex="3"
+    sessionSN="5"
+>
+    ITS A SOCIAL MOVEMENT
+    <stl:data name="modal">
+        字段字段字段字段字段字段字段字<br />
+        段字段字段字段字段字段字段字段字段字段
+    </stl:data>
+</stl:a>
+
+<stl:text>ITS A SOCIAL MOVEMENT.</stl:text>
+
+<stl:textarea>
+    ITS A SOCIAL MOVEMENT.
+    商业贸易/物流 教育/培训/咨询 服饰/化妆/美容 食品/餐饮/酒类 服务行业 装饰/设计 事业单位/组织机构
+</stl:textarea>
+
+<stl:editor>
+    ITS A SOCIAL MOVEMENT1.<br />
+    ITS A SOCIAL MOVEMENT2.
+</stl:editor>
+
+<stl:image wrap-width="200" width="150" value="http://www.liveapp.cn/group1/M00/35/F4/eccZzlRlpgKAEI-zAABoCW6y8xE836.jpg"></stl:image>
+
+<stl:box wrap-width="200" width="200">
+    <stl:data name="some1" value="thing1" datatype="text" displayname="文字" required="true" placeholder="请填写字段一"></stl:data>
+        <stl:data name="pic" value="http://www.liveapp.cn/group1/M00/35/F4/eccZzlRlpgKAEI-zAABoCW6y8xE836.jpg" datatype="image" displayname="图片" required="true" placeholder="请填写字段一"></stl:data>
+
+    字段字段字段字段字段字段字段字段{stl.data.some1}字段字段字段字段字段字段字段字段字段<br />
+        <img src="{stl.data.pic}" height="100" />
+</stl:box>
+
+<stl:box wrap-width="200" width="200">
+    <stl:style mediaType="phone/pad/pc/all"></stl:style>
+    <stl:data name="title" datatype="text" displayname="标题" required="true" placeholder="请填写标题" value="box标题"></stl:data>
+    <stl:data name="content" datatype="textarea" displayname="正文" required="true" placeholder="请填写正文">
+        box正文box正文box正文box正文box正文box正文
+        <br />
+        box正文box正文box正文box正文box正文box正文
+    </stl:data>
+    <stl:data name="pic" datatype="image" displayname="图片" required="true" placeholder="请上传图片" value="http://www.liveapp.cn/group1/M00/35/F4/eccZzlRlpgKAEI-zAABoCW6y8xE836.jpg"></stl:data>
+
+    <p class="title">{stl.data.title}</p>
+    <p class="content">
+        {stl.data.content}
+    </p>
+    <img src="{stl.data.pic}" height="100" />
+</stl:box>
+
+<stl:config>
+    <stl:style></stl:style>
+</stl:config>

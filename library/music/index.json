@@ -1,0 +1,361 @@
+[
+    {
+        "categoryName": "节日",
+        "categorySN": "jieri",
+        "templates": [
+            {
+                "templateName": "叮叮当",
+                "templateSN": "",
+                "items": 0,
+                "thumbUrl": "",
+                "templateUrl": "dingdingdang.mp3",
+                "description": ""
+            },
+            {
+                "templateName": "铃儿响叮当",
+                "templateSN": "",
+                "items": 0,
+                "thumbUrl": "",
+                "templateUrl": "lingerxiangdingdang.mp3",
+                "description": ""
+            },
+            {
+                "templateName": "圣诞节快乐",
+                "templateSN": "",
+                "items": 0,
+                "thumbUrl": "",
+                "templateUrl": "merrychristmas.mp3",
+                "description": ""
+            },
+            {
+                "templateName": "生日快乐",
+                "templateSN": "",
+                "items": 0,
+                "thumbUrl": "",
+                "templateUrl": "shengrikuaile.mp3",
+                "description": ""
+            },
+            {
+                "templateName": "TheChimneySong",
+                "templateSN": "",
+                "items": 0,
+                "thumbUrl": "",
+                "templateUrl": "thechimneysong.mp3",
+                "description": ""
+            },
+            {
+                "templateName": "喜洋洋",
+                "templateSN": "",
+                "items": 0,
+                "thumbUrl": "",
+                "templateUrl": "xiyangyang.mp3",
+                "description": ""
+            },
+            {
+                "templateName": "优美",
+                "templateSN": "",
+                "items": 0,
+                "thumbUrl": "",
+                "templateUrl": "youmei.mp3",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "categoryName": "激扬",
+        "categorySN": "jiyang",
+        "templates": [
+            {
+                "templateName": "勇士",
+                "templateSN": "",
+                "items": 0,
+                "thumbUrl": "",
+                "templateUrl": "yongshi.mp3",
+                "description": ""
+            },
+            {
+                "templateName": "TheWaitingGame",
+                "templateSN": "",
+                "items": 0,
+                "thumbUrl": "",
+                "templateUrl": "thewaitinggame.mp3",
+                "description": ""
+            },
+            {
+                "templateName": "神秘",
+                "templateSN": "",
+                "items": 0,
+                "thumbUrl": "",
+                "templateUrl": "shenmi.mp3",
+                "description": ""
+            },
+            {
+                "templateName": "PumpinBlood",
+                "templateSN": "",
+                "items": 0,
+                "thumbUrl": "",
+                "templateUrl": "pumpinblood.mp3",
+                "description": ""
+            },
+            {
+                "templateName": "民族",
+                "templateSN": "",
+                "items": 0,
+                "thumbUrl": "",
+                "templateUrl": "minzu.mp3",
+                "description": ""
+            },
+            {
+                "templateName": "激越",
+                "templateSN": "",
+                "items": 0,
+                "thumbUrl": "",
+                "templateUrl": "jiyue.mp3",
+                "description": ""
+            },
+            {
+                "templateName": "激扬",
+                "templateSN": "",
+                "items": 0,
+                "thumbUrl": "",
+                "templateUrl": "jiyang.mp3",
+                "description": ""
+            },
+            {
+                "templateName": "讲",
+                "templateSN": "",
+                "items": 0,
+                "thumbUrl": "",
+                "templateUrl": "jiang.mp3",
+                "description": ""
+            },
+            {
+                "templateName": "HunterHunted-KeepTogether",
+                "templateSN": "",
+                "items": 0,
+                "thumbUrl": "",
+                "templateUrl": "hunterhunted-keeptogether.mp3",
+                "description": ""
+            },
+            {
+                "templateName": "CoinsInAFountain",
+                "templateSN": "",
+                "items": 0,
+                "thumbUrl": "",
+                "templateUrl": "coinsinafountain.mp3",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "categoryName": "浪漫",
+        "categorySN": "langman",
+        "templates": [
+            {
+                "templateName": "宇宙",
+                "templateSN": "",
+                "items": 0,
+                "thumbUrl": "",
+                "templateUrl": "yuzhou.mp3",
+                "description": ""
+            },
+            {
+                "templateName": "钟声",
+                "templateSN": "",
+                "items": 0,
+                "thumbUrl": "",
+                "templateUrl": "zhongsheng.mp3",
+                "description": ""
+            },
+            {
+                "templateName": "友爱",
+                "templateSN": "",
+                "items": 0,
+                "thumbUrl": "",
+                "templateUrl": "youai.mp3",
+                "description": ""
+            },
+            {
+                "templateName": "溪水",
+                "templateSN": "",
+                "items": 0,
+                "thumbUrl": "",
+                "templateUrl": "xishui.mp3",
+                "description": ""
+            },
+            {
+                "templateName": "嘻哈Di",
+                "templateSN": "",
+                "items": 0,
+                "thumbUrl": "",
+                "templateUrl": "xihadichen.mp3",
+                "description": ""
+            },
+            {
+                "templateName": "微信",
+                "templateSN": "",
+                "items": 0,
+                "thumbUrl": "",
+                "templateUrl": "wenxin.mp3",
+                "description": ""
+            },
+            {
+                "templateName": "langman",
+                "templateSN": "",
+                "items": 0,
+                "thumbUrl": "",
+                "templateUrl": "langman.mp3",
+                "description": ""
+            },
+            {
+                "templateName": "低沉",
+                "templateSN": "",
+                "items": 0,
+                "thumbUrl": "",
+                "templateUrl": "dichen.mp3",
+                "description": ""
+            }
+
+        ]
+    },
+    {
+        "categoryName": "舒缓",
+        "categorySN": "shuhuan",
+        "templates": [
+            {
+                "templateName": "AngelFromMontgomery",
+                "templateSN": "",
+                "items": 0,
+                "thumbUrl": "",
+                "templateUrl": "angelfrommontgomery.mp3",
+                "description": ""
+            },
+            {
+                "templateName": "步步高",
+                "templateSN": "",
+                "items": 0,
+                "thumbUrl": "",
+                "templateUrl": "bubugao.mp3",
+                "description": ""
+            },
+            {
+                "templateName": "Diamonds",
+                "templateSN": "",
+                "items": 0,
+                "thumbUrl": "",
+                "templateUrl": "diamonds.mp3",
+                "description": ""
+            },
+            {
+                "templateName": "欢快",
+                "templateSN": "",
+                "items": 0,
+                "thumbUrl": "",
+                "templateUrl": "huankuai.mp3",
+                "description": ""
+            },
+            {
+                "templateName": "silentnight",
+                "templateSN": "",
+                "items": 0,
+                "thumbUrl": "",
+                "templateUrl": "silentnight.mp3",
+                "description": ""
+            },
+            {
+                "templateName": "ThePurpleButterfly",
+                "templateSN": "",
+                "items": 0,
+                "thumbUrl": "",
+                "templateUrl": "thepurplebutterfly.mp3",
+                "description": ""
+            },
+            {
+                "templateName": "悠扬",
+                "templateSN": "",
+                "items": 0,
+                "thumbUrl": "",
+                "templateUrl": "youyang.mp3",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "categoryName": "愉悦",
+        "categorySN": "yuyue",
+        "templates": [
+            {
+                "templateName": "BLOOM",
+                "templateSN": "",
+                "items": 0,
+                "thumbUrl": "",
+                "templateUrl": "bloom.mp3",
+                "description": ""
+            },
+            {
+                "templateName": "ChimneySong",
+                "templateSN": "",
+                "items": 0,
+                "thumbUrl": "",
+                "templateUrl": "chimneysong.mp3",
+                "description": ""
+            },
+            {
+                "templateName": "FangKe",
+                "templateSN": "",
+                "items": 0,
+                "thumbUrl": "",
+                "templateUrl": "fangke.mp3",
+                "description": ""
+            },
+            {
+                "templateName": "经典",
+                "templateSN": "",
+                "items": 0,
+                "thumbUrl": "",
+                "templateUrl": "jiandan.mp3",
+                "description": ""
+            },
+            {
+                "templateName": "轻音乐",
+                "templateSN": "",
+                "items": 0,
+                "thumbUrl": "",
+                "templateUrl": "lightmusic.mp3",
+                "description": ""
+            },
+            {
+                "templateName": "清脆",
+                "templateSN": "",
+                "items": 0,
+                "thumbUrl": "",
+                "templateUrl": "qingcui.mp3",
+                "description": ""
+            },
+            {
+                "templateName": "嘻哈",
+                "templateSN": "",
+                "items": 0,
+                "thumbUrl": "",
+                "templateUrl": "xihaqingxi.mp3",
+                "description": ""
+            },
+            {
+                "templateName": "清晰",
+                "templateSN": "",
+                "items": 0,
+                "thumbUrl": "",
+                "templateUrl": "qingxi.mp3",
+                "description": ""
+            },
+            {
+                "templateName": "SantaClausIs",
+                "templateSN": "",
+                "items": 0,
+                "thumbUrl": "",
+                "templateUrl": "santaclausiscomingtotown.mp3",
+                "description": ""
+            }
+        ]
+    }
+]

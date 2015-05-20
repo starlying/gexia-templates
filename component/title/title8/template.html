@@ -1,0 +1,25 @@
+<stl:box>
+        <stl:data name="title" datatype="text" displayname="标题" value="请输入标题"></stl:data>
+        <stl:data name="size" datatype="text" displayname="标题字号" value="1.5em"></stl:data>
+        <stl:data name="color" datatype="color" displayname="标题颜色"  value="#000"></stl:data>
+        <stl:data name="subtitle" datatype="text" displayname="副标题" value="请输入副标题"></stl:data>
+        <stl:data name="subsize" datatype="text" displayname="标题字号" value="1em"></stl:data>
+        <stl:data name="subcolor" datatype="color" displayname="副标题颜色"  value="#ccc"></stl:data>
+        <stl:data name="number" datatype="text" displayname="序号" value="1"></stl:data>
+        <stl:data name="number-color" datatype="color" displayname="数字颜色" value="#fff"></stl:data>
+        <stl:data name="background-color" datatype="color" displayname="序号颜色"  value="#f2be45"></stl:data>
+        
+       <fieldset style="border:0;margin: 0.8em 0 0.5em 0">
+       <section style="display: inline-block; width: 1em; height: 1em; border-radius: 50%; text-align: center; font-weight: inherit; line-height: 1; font-size: 3.5em; font-family: inherit; font-style: normal; text-decoration: inherit; color: {stl.data.number-color}; border-color: {stl.data.background-color}; background-color: {stl.data.background-color};">
+       <section>{stl.data.number}</section>
+       </section>
+       <section style="display: inline-block; margin-left: 0.7em; padding-top: 0.3em">
+       <section style="line-height: 1.4; font-size: {stl.data.size}; font-family: inherit; font-style: normal; font-weight: inherit; text-align: inherit; text-decoration: inherit; color: {stl.data.color}">
+       <section>{stl.data.title}</section>
+       </section>
+       <section style="line-height: 1.4; margin-left: 0.2em; font-size: {stl.data.subsize}; font-family: inherit; font-style: normal; font-weight: inherit; text-align: inherit; text-decoration: inherit; color: {stl.data.subcolor};">
+       <section>{stl.data.subtitle}</section>
+       </section>
+       </section>
+       </fieldset>
+</stl:box>

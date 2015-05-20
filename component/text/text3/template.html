@@ -1,0 +1,11 @@
+<stl:box>
+       <stl:data name="title" datatype="textarea" displayname="标题"  value="文字的排列方式为垂直排列"></stl:data>
+       <stl:data name="size" datatype="text" displayname="字号"  value="1em"></stl:data>
+       <stl:data name="shadow-color" datatype="color" displayname="阴影颜色"  value="#ccc"></stl:data>
+       <stl:data name="color" datatype="color" displayname="文字颜色"  value="#fff"></stl:data>
+
+       
+    <fieldset style="border:0;text-align: left; margin: 0.8em 0 0.5em 0">
+            <section style="color: {stl.data.color}; text-shadow: 1px 1px 2px {stl.data.shadow-color}; font-size: {stl.data.size}; line-height:1.0; width:1.5em;">{stl.data.title}</section>
+    </fieldset>
+</stl:box>

@@ -1,0 +1,16 @@
+<stl:box>
+       <stl:data name="title" datatype="text" displayname="大字"  value="即"></stl:data>
+       <stl:data name="bigsize" datatype="text" displayname="大字字号"  value="2em"></stl:data>
+       <stl:data name="content" datatype="textarea" displayname="其它文字"  value="便是一截千疮百孔的朽木，如果它想有用，它也可以在雨后绽放出花一样的木耳，为人们奉献一道鲜脆的美食。"></stl:data>
+       <stl:data name="size" datatype="text" displayname="其它文字字号"  value="1em"></stl:data>
+       <stl:data name="color" datatype="color" displayname="文字颜色"  value="#21a675"></stl:data>
+
+        <fieldset style="border:0;margin: 1em 0; padding:10px;">
+        <span style="padding-right: 0.1em; font-size: {stl.data.bigsize}; text-align:left;  line-height: 1em;  color: {stl.data.color};">
+        {stl.data.title}
+        </span>
+        <span style="text-align: left; font-size: {stl.data.size}; line-height: 1.4; color: {stl.data.color}">
+        {stl.data.content}
+        </span>
+        </fieldset>
+</stl:box>
