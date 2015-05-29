@@ -1,4 +1,4 @@
-﻿[
+[
     {
         "categoryName": "科技",
         "categorySN": "technology",
@@ -7,6 +7,14 @@
                 "templateName": "gx-exponent",
                 "templateSN": "h5siteasdf000001",
                 "items": 7,
+                "thumbUrl": "template.jpg",
+                "templateUrl": "",
+                "description": ""
+            },
+            {
+                "templateName": "gx-nike",
+                "templateSN": "h5siteasdf000002",
+                "items": 9,
                 "thumbUrl": "template.jpg",
                 "templateUrl": "",
                 "description": ""
