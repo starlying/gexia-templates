@@ -1,0 +1,235 @@
+<stl:config>
+    <stl:style>
+        .jo-blue {
+          background: url({stl.templateUrl}/images/threeofone.png) repeat-y;
+          background-size: cover;
+        }
+        .jo-orange {
+          background: url({stl.templateUrl}/images/threeoftwo.png) repeat-y;
+          background-size: cover;
+        }
+        .jo-grey {
+          background: url({stl.templateUrl}/images/threeofthree.png) repeat-y;
+          background-size: cover;
+        }
+        .jo-max-width {
+          max-width: 1200px;
+          margin: 0 auto;
+          padding: 0 10px;
+        }
+        /*the img list style*/
+        .jo-imglist {
+          padding-bottom: 80px;
+          background: url({stl.templateUrl}/images/bg-bn.png) repeat;
+        }
+        .jo-imglist .jo-imgbox img {
+          width: 100%;
+        }
+        .jo-imglist .jo-imgtitle {
+          position: relative;
+          height: 120px;
+          top: -5px;
+        }
+        .jo-imglist .jo-imgtitle .title {
+          position: absolute;
+          top: 30px;
+          left: 25px;
+        }
+        .jo-imglist .jo-imgtitle .title a {
+          font-family: "Microsoft Yahei";
+          font-size: 26px;
+          line-height: 1;
+          color: rgba(255, 255, 255, 0.75);
+          text-decoration: none;
+        }
+        .jo-imglist .jo-imgtitle .subtitle {
+          position: absolute;
+          top: 71px;
+          left: 25px;
+        }
+        .jo-imglist .jo-imgtitle .subtitle a {
+          font-family: "Microsoft Yahei";
+          font-size: 18px;
+          line-height: 1;
+          color: rgba(255, 255, 255, 0.75);
+          text-decoration: none;
+        }
+        .jo-imglist .jo-imgtitle .fa-chevron-circle-right {
+          position: absolute;
+          right: 20px;
+          top: 35px;
+          font-size: 50px;
+          color: rgba(255, 255, 255, 0.75);
+          text-decoration: none;
+        }
+    </stl:style>
+    <stl:style mediaType="pc">
+         .jo-imglist .jo-max-width {
+          display: -webkit-flex;
+          display: flex;
+          -webkit-flex-direction: row;
+          flex-direction: row;
+          -webkit-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+          -webkit-justify-content: space-between;
+          justify-content: space-between;
+        }</stl:style>
+    <stl:style mediaType="pad">
+       .jo-imglist {
+        padding-bottom: 40px;
+      }
+      .jo-imglist .jo-max-width {
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-direction: row;
+        flex-direction: row;
+        -webkit-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+        -webkit-justify-content: space-between;
+        justify-content: space-between;
+      }
+      .jo-imglist .jo-imgbox img {
+        width: 100%;
+      }
+      .jo-imglist .jo-imgtitle {
+        position: relative;
+        height: 70px;
+      }
+      .jo-imglist .jo-imgtitle .title {
+        position: absolute;
+        top: 15px;
+        left: 15px;
+      }
+      .jo-imglist .jo-imgtitle .title a {
+        font-family: "Microsoft Yahei";
+        font-size: 20px;
+        line-height: 1;
+        color: rgba(255, 255, 255, 0.75);
+      }
+      .jo-imglist .jo-imgtitle .subtitle {
+        position: absolute;
+        top: 35px;
+        left: 15px;
+      }
+      .jo-imglist .jo-imgtitle .subtitle a {
+        font-family: "Microsoft Yahei";
+        font-size: 14px;
+        line-height: 1;
+        color: rgba(255, 255, 255, 0.75);
+      }
+      .jo-imglist .jo-imgtitle .fa-chevron-circle-right {
+        position: absolute;
+        right: 10px;
+        top: 25px;
+        font-size: 30px;
+      }
+    </stl:style>
+    <stl:style mediaType="phone">
+        .jo-imglist {
+            padding-bottom: 10px;
+          }
+          .jo-imglist .jo-max-width {
+            display: block;
+            padding: 0 10px;
+          }
+          .jo-imglist .jo-imgbox {
+            width: 100%;
+            margin-bottom: 10px;
+          }
+          .jo-imglist .jo-imgbox img {
+            width: 100%;
+          }
+          .jo-imglist .jo-imgtitle {
+            position: relative;
+            height: 70px;
+          }
+          .jo-imglist .jo-imgtitle .title {
+            position: absolute;
+            top: 15px;
+            left: 15px;
+          }
+          .jo-imglist .jo-imgtitle .title a {
+            font-family: "Microsoft Yahei";
+            font-size: 20px;
+            line-height: 1;
+            color: rgba(255, 255, 255, 0.75);
+          }
+          .jo-imglist .jo-imgtitle .subtitle {
+            position: absolute;
+            top: 35px;
+            left: 15px;
+          }
+          .jo-imglist .jo-imgtitle .subtitle a {
+            font-family: "Microsoft Yahei";
+            font-size: 14px;
+            line-height: 1;
+            color: rgba(255, 255, 255, 0.75);
+          }
+          .jo-imglist .jo-imgtitle .fa-chevron-circle-right {
+            position: absolute;
+            right: 10px;
+            top: 25px;
+            font-size: 30px;
+          }
+    </stl:style>
+</stl:config>
+
+<!--
+        	作者：joozo@sina.com
+        	时间：2015-05-27
+        	描述：the imglist begin
+        -->
+<div class="jo-imglist ct-clearfix">
+    <div class="jo-max-width">
+        <div class="jo-imgbox">
+           <stl:box>
+            <stl:data name="title" datatype="text" displayname="标题" value="女子NIKE Dri-Fit Cool" />
+            <stl:data name="subtitle" datatype="text" displayname="副标题" value="干爽舒适，活动自如" />
+            <stl:data name="url" datatype="text" displayname="链接" value="http://www.gexia.com" />
+            <stl:data name="pic" datatype="image" displayname="图片" value="{stl.templateUrl}/images/threeofonepic.png" />
+            <img src="{stl.data.pic}" alt="{stl.data.title}">
+            <div class="jo-imgtitle jo-blue">
+                <div class="title"><a href="{stl.data.url}">{stl.data.title}</a>
+                </div>
+                <div class="subtitle"><a href="{stl.data.url}">{stl.data.subtitle}</a>
+                </div>
+                <a href="{stl.data.url}" class="fa fa-chevron-circle-right"></a>
+            </div>
+            </stl:box>
+        </div>
+        
+        <div class="jo-imgbox">
+           <stl:box>
+            <stl:data name="title" datatype="text" displayname="标题" value="女子夏季穿搭指南" />
+            <stl:data name="subtitle" datatype="text" displayname="副标题" value="畅想随心所欲的奔驰体验" />
+            <stl:data name="url" datatype="text" displayname="链接" value="http://www.gexia.com" />
+            <stl:data name="pic" datatype="image" displayname="图片" value="{stl.templateUrl}/images/threeoftwopic.png" />
+            <img src="{stl.data.pic}" alt="{stl.data.title}">
+            <div class="jo-imgtitle jo-orange">
+                <div class="title"><a href="{stl.data.url}">{stl.data.title}</a>
+                </div>
+                <div class="subtitle"><a href="{stl.data.url}">{stl.data.subtitle}</a>
+                </div>
+                <a href="{stl.data.url}" class="fa fa-chevron-circle-right"></a>
+            </div>
+            </stl:box>
+        </div>
+        
+        <div class="jo-imgbox">
+           <stl:box>
+            <stl:data name="title" datatype="text" displayname="标题" value="NIKE FREE iD专属定制" />
+            <stl:data name="subtitle" datatype="text" displayname="副标题" value="觉醒天生动力，演绎专属魅力" />
+            <stl:data name="url" datatype="text" displayname="链接" value="http://www.gexia.com" />
+            <stl:data name="pic" datatype="image" displayname="图片" value="{stl.templateUrl}/images/threeofthreepic.png" />
+            <img src="{stl.data.pic}" alt="{stl.data.title}">
+            <div class="jo-imgtitle jo-grey">
+                <div class="title"><a href="{stl.data.url}">{stl.data.title}</a>
+                </div>
+                <div class="subtitle"><a href="{stl.data.url}">{stl.data.subtitle}</a>
+                </div>
+                <a href="{stl.data.url}" class="fa fa-chevron-circle-right"></a>
+            </div>
+            </stl:box>
+        </div>
+    </div>
+</div>
