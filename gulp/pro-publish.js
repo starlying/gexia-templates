@@ -26,10 +26,13 @@ function getDirectoryFiles(directory, callback) {
     });
 }
 
-qiniu.conf.ACCESS_KEY = 'R3NfJqdXJRktzw4LR0LvMNH3laXzjuEBcfq8Y6we';
-qiniu.conf.SECRET_KEY = 'iRP3V8NIYkpEGljinh3Mh_YT_P99C14MnQlZzXhv';
-
-gulp.task('qn_templates', function () {
+gulp.task('pro-publish', function () {
+    var content = fs.readFileSync('./config/qiniu.json');
+    var config = JSON.parse(content);
+    
+    qiniu.conf.ACCESS_KEY = config.accessKey;
+    qiniu.conf.SECRET_KEY = config.secretKey;
+    
     var errKey = [];
     getDirectoryFiles(uploadDirectoryPath, function (file_with_path) {
         var key = file_with_path.replace("./", "");
@@ -75,8 +78,4 @@ gulp.task('qn_templates', function () {
     if (logKey.length > 0) {
         console.log('error:' + logKey.join(','));
     }
-});
-
-gulp.task('publish', function (callback) {
-    runSequence('qn_templates');
 });
