@@ -20,5 +20,19 @@
                 "description": ""
             }
         ]
+    },
+		{
+        "categoryName": "运动",
+        "categorySN": "sports",
+        "templates": [
+            {
+                "templateName": "gx-giant",
+                "templateSN": "h5siteasdf000003",
+                "items": 5,
+                "thumbUrl": "template.jpg",
+                "templateUrl": "",
+                "description": ""
+            }
+        ]
     }
 ]

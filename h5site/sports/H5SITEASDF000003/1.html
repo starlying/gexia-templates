@@ -1,0 +1,127 @@
+<stl:config>
+    <stl:style>
+.sn-max-width {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.sn-weight-yahei{
+    font-family: microsoft yahei;
+    font-weight: 900;
+}
+.sn-white{
+    color: white;
+}
+.sn-bgcolor{
+    background: #1e262b;
+}
+   /*头部开始*/
+.sn-headerbg{
+    background: #33373a;
+}
+.sn-header{
+    height: 100px;
+}
+
+.sn-logo{
+    display: inline-block;
+    width: 143px;
+    height: 25px;
+    margin-top: 32px;
+    float: left;
+}
+.sn-menu{
+    float: right;
+    margin-top: 32px;
+}
+.sn-menu > li{
+    list-style: none;
+    float: left;
+    padding: 0 9px;
+}
+.sn-menu > li .sn-a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: microsoft yahei;
+    padding: 10px 12px;
+    margin: 0;
+}
+.sn-menu > li .sn-a:hover,.sn-menu .sn-menushow{
+    background: #1e262b;
+    border-radius: 3px;
+}
+    </stl:style>
+    <stl:style mediaType="pad"> 
+.sn-header{
+        height: auto;
+        padding-bottom: 15px;
+    }
+    .sn-logo{
+        display: block;
+        margin: 0 auto;
+        padding: 15px 0;
+        float: none;
+    }
+    .sn-menu{
+        display: block;
+        margin: 0 auto;
+        float: none;
+        text-align: center;
+        padding: 0;
+    }
+    .sn-menu > li{
+        float: none;
+        display: inline-block;
+        padding: 0 9px;
+    }
+    .sn-menu > li .sn-a{
+        line-height: 30px;
+        padding: 2px 12px;
+    }
+    </stl:style>
+    <stl:style mediaType="phone">
+.sn-header{
+        height: auto;
+        padding-bottom: 15px;
+    }
+    .sn-logo{
+        display: block;
+        margin: 0 auto;
+        padding: 15px 0;
+        float: none;
+    }
+    .sn-menu{
+        display: block;
+        margin: 0 auto;
+        float: none;
+        text-align: center;
+        padding: 0;
+    }
+    .sn-menu > li{
+        float: none;
+        display: inline-block;
+        padding: 0 9px;
+    }
+    .sn-menu > li .sn-a{
+        line-height: 30px;
+        padding: 2px 12px;
+    }
+    </stl:style>
+</stl:config>
+<!--头部-->
+<div class="sn-headerbg"> 
+ <div class="sn-header sn-max-width ct-clearfix">
+  <div class="sn-logo">
+    <stl:image src="{stl.templateUrl}/images/logo.png"/>
+  </div>
+  <ul class="sn-menu ct-clearfix">
+    <li><stl:a href="#" class="sn-menushow sn-a">铺设道路</stl:a></li>
+    <li><stl:a href="#" class="sn-a">混合路面</stl:a></li>
+    <li><stl:a href="#" class="sn-a">山野林道</stl:a></li>
+    <li><stl:a href="#" class="sn-a">选车精灵帮您选车</stl:a></li>
+    <li><stl:a href="#" class="sn-a">骑行装备精品配件</stl:a></li>
+  </ul>
+ </div>
+</div>  

@@ -1,0 +1,128 @@
+<stl:config>
+    <stl:style>
+.sn-max-width {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.sn-weight-yahei{
+    font-family: microsoft yahei;
+    font-weight: 900;
+}
+.sn-white{
+    color: white;
+}
+.sn-bgcolor{
+    background: #1e262b;
+}
+   .sn-banner{
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-color: #1e262b;
+    width: 100%;
+    border: none;
+}
+.sn-bannner-cont{
+    position: relative;
+    height: 500px;
+}
+.sn-bicycle{
+    position: absolute;
+    bottom: 40px;
+    right: 20px;
+}
+.sn-title{
+    position: absolute;
+    bottom: 70px;
+    left: 50px;
+    color: white;
+    font-family: microsoft yahei;
+}
+.sn-title .sn-h2{
+    font-size: 54px;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+.sn-title .sn-p{
+    font-size: 30px;
+    font-weight: 900;
+    margin: 0;
+    padding: 20px 0;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+    </stl:style>
+    <stl:style mediaType="pad"> 
+sn-bicycle{
+        position:static;
+        display: block;
+        text-align: center;
+    }
+    .sn-bicycle img { max-width: 80%;}
+    .sn-title{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        text-align: center;
+        background: rgba(0,0,0,0.5);
+        width: 100%;
+        padding-top: 6px;
+    }
+    .sn-title .sn-h2{
+        font-size: 32px;
+        
+    }
+    .sn-title .sn-p{
+        font-size: 24px;
+        margin: 0;
+        padding: 10px 0;
+    }
+    </stl:style>
+    <stl:style mediaType="phone">
+.sn-bannner-cont{
+        position: relative;
+        height: 300px;
+    }
+    .sn-bicycle{
+        position:static;
+        display: block;
+        text-align: center;
+    }
+    .sn-bicycle img { max-width: 80%;}
+    .sn-title{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        text-align: center;
+        background: rgba(0,0,0,0.5);
+        width: 100%;
+        padding-top: 6px;
+    }
+    .sn-title .sn-h2{
+        font-size: 24px;
+        
+    }
+    .sn-title .sn-p{
+        font-size: 16px;
+        margin: 0;
+        padding: 10px 0;
+    }
+    </stl:style>
+</stl:config>
+
+<div class="sn-banner" style="background-image:url({stl.templateUrl}/images/banner.jpg)">
+ <div class="sn-bannner-cont sn-max-width">
+    <div class="sn-title">
+        <h2 class="sn-h2"><stl:text>踩动乐活   自在骑中</stl:text></h2>
+        <p class="sn-p"><stl:textarea>美型    安心     舒适</stl:textarea></p> 
+    </div>
+    <div class="sn-bicycle">
+       <stl:box>
+       	<stl:data name="pic" datatype="image" displayname="图片" value="{stl.templateUrl}/images/bicycle.png" />
+       	<stl:data name="url" datatype="text" displayname="链接" value="#" />
+       	<a href="{stl.data.url}"><img src="{stl.data.pic}"></a>
+       </stl:box>
+    </div>
+ </div>
+</div>
