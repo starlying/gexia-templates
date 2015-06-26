@@ -1,0 +1,179 @@
+<stl:config>
+    <stl:style>
+.mo-container {
+	max-width: 1200px; 
+	margin: 0 auto;
+	padding: 0 10px; 
+	font-family: "Microsoft Yahei";
+}
+.mo-a {color:grey;}
+ .mo-header-wrapper {
+	position: relative;
+	overflow: hidden;
+	background-size: cover;
+	background-position: top center;
+	z-index: 1;
+}
+
+.mo-menu {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	.mo-menu-list {
+		padding: 9px 0;
+		text-align: center;
+		.mo-a {		
+			display: inline-block;
+			padding: 14px 30px;
+			text-decoration: none;
+			color: #fff;
+			border-radius: 5px;
+			font-size: 13px;
+			&:hover, &.hover {
+				background: #ff8059;
+			}
+		}
+	}
+}
+
+.mo-header {
+	margin: 0;
+	padding: 145px 0 156px 0;
+	.mo-title {
+		padding: 0;
+		margin: 0;
+		font-size: 50px;
+		text-align: center;
+		font-weight: bold;
+		.mo-logo {
+			display: inline-block;
+			background: #ff8059;
+			text-decoration: none;
+			text-transform: uppercase;
+			font-weight: 900;
+			color: #FFFFFF;
+			padding: 20px 14px;
+			font-size: 50px;
+			margin: 0;
+			letter-spacing: -1px;
+		}
+	}
+}
+
+.mo-banner-wrapper {
+	background: rgba(60, 39, 38, 0.8);
+	.mo-banner {
+		padding: 86px 0 90px 0;
+		.ct-color {
+			font-size: 46px;
+			color: #fff;
+			padding: 0 30px;
+			margin: 0;
+			margin-bottom: 27px;
+		}
+		.banner-p {
+			color: #fff;
+			opacity: 0.5;
+			font-size: 24px;
+			padding: 0 30px;
+			margin: 0;
+		}
+	}
+}  
+    </stl:style>
+    <stl:style mediaType="pad"> 
+.mo-menu {
+		.mo-menu-list {
+			.mo-a {
+				padding: 7px 15px;
+			}
+		}
+	}
+	.mo-header {
+		margin: 0;
+		padding: 105px 0 106px 0;
+		.mo-title {
+			font-size: 30px;
+			.mo-logo {
+				padding: 10px 7px;
+				font-size: 30px;
+			}
+		}
+	}
+	.mo-banner-wrapper {
+		.mo-banner {
+			padding: 56px 0 60px 0;
+			.ct-color {
+				font-size: 26px;
+				margin-bottom: 17px;
+			}
+			.banner-p {
+				font-size: 18px;
+			}
+		}
+	}
+    </stl:style>
+    <stl:style mediaType="phone">
+.mo-menu {
+		.mo-menu-list {
+			.mo-a {
+				padding: 7px 12px;
+			}
+		}
+	}
+	.mo-header {
+		margin: 0;
+		padding: 55px 0 66px 0;
+		.mo-title {
+			font-size: 18px;
+			.mo-logo {
+				padding: 10px 7px;
+				font-size: 18px;
+			}
+		}
+	}
+	.mo-banner-wrapper {
+		.mo-banner {
+			padding: 36px 0 40px 0;
+			.ct-color {
+				font-size: 20px;
+				margin-bottom: 10px;
+			}
+			.banner-p {
+				font-size: 14px;
+			}
+		}
+	}
+    </stl:style>
+</stl:config>
+<div class="mo-header-wrapper" style="background-image:url('{stl.templateUrl}/images/banner.jpg')">
+		<div class=" mo-container">
+			<div class="mo-menu">
+				<div class="mo-menu-list">
+				<stl:a href="#" class="mo-a hover" style="color:#fff;">首页</stl:a>
+				<stl:a href="#" class="mo-a" style="color:#fff;">车型概览</stl:a>
+				<stl:a href="#" class="mo-a" style="color:#fff;">体验路虎</stl:a>
+				<stl:a href="#" class="mo-a" style="color:#fff;">品牌故事</stl:a>
+				<stl:a href="#" class="mo-a" style="color:#fff;">车主服务</stl:a>
+				<stl:a href="#" class="mo-a" style="color:#fff;">认证二手车</stl:a>
+				</div>
+			</div>
+			<header class="mo-header">
+				<h1 class="mo-title">
+				<stl:box>
+					<stl:data name="link" datatype="text" displayname="链接" value="#"></stl:data>
+					<a href="{stl.data.link}" class="mo-logo">Landrover</a>
+				</stl:box>
+				</h1>
+			</header>
+		</div>
+		<!-- Banner -->
+		<div class="mo-banner-wrapper">
+			<div class="mo-banner ct-center  mo-container">
+				<h2 class="ct-color"><stl:textarea>以无界  揽无上境界  邀您征服海外极限赛道</stl:textarea></h2>
+				<div class="banner-p">
+				<stl:textarea>路虎----它果敢，坚毅，不断地改变着历史，将所有地形征服于轮下，俘获了全世界的心。</stl:textarea>
+				</div>
+			</div>
+		</div>
+	</div>

@@ -1,0 +1,633 @@
+@charset 'UTF-8';
+
+/*Base Style of Mixins*/
+@base-color: rgba(0, 0, 0, 0.75);
+@white-color: rgba(255, 255, 255, 0.75);
+.pr () { position: relative;}
+.pa () { position: absolute;}
+.ps () { position: static;}
+.of () {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.tn () { text-decoration: none;}
+
+.flex () {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+}
+
+.font-family (@size: 14px, @lh: 1,@color: @base-color) {
+    font-family: "Microsoft Yahei";
+    font-size:@size;
+    line-height: @lh;
+    color: @color;
+}
+
+.linka () {
+    color: @white-color;
+    .tn;
+}
+.jo-blue {background: url(../images/threeofone.png) repeat-y;  background-size: cover;}
+.jo-orange {background: url(../images/threeoftwo.png) repeat-y;  background-size: cover;}
+.jo-grey {background: url(../images/threeofthree.png) repeat-y;  background-size: cover;}
+
+.jo-max-width {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding:0 10px;
+}
+
+
+
+
+/*The One of public style*/
+.jo-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    background: #181818;
+    
+    .jo-menu-list {
+        padding: 30px 0;
+        text-align: center;
+        a {
+            display: inline-block;
+            padding: 10px 50px;
+            .font-family;
+            .linka;
+            &:hover,&.hover {
+                background: #2a9bd5;
+            }
+        } 
+     }   
+}
+/*the pad style*/
+@media (min-width:768px) and (max-width:1000px) {
+.jo-menu {  
+    .jo-menu-list {
+        a {
+            padding: 10px 20px;
+        } 
+     }   
+}
+}
+
+/*the phone style*/
+@media only screen and (max-width: 767px){
+.jo-menu {  
+    .jo-menu-list {
+        a {
+            padding: 10px 5px;
+        } 
+     }   
+}
+}
+
+
+
+
+
+
+
+
+/*The Slogan style*/
+.jo-slogan {
+    padding: 7em 0;
+    background: #181818;
+    text-align: center;
+    img {max-width: 100%;}
+}
+
+/*the pad style*/
+@media (min-width:320px) and (max-width:1000px) {
+    .jo-slogan { 
+        padding:50px 20px;
+    }
+}
+
+/*the phone style*/
+@media only screen and (max-width: 319px){
+    .jo-slogan { 
+        padding:50px 20px;
+    }
+}
+
+
+/*the foucs Img*/
+.jo-banner {
+    padding-top: 80px;
+    padding-bottom: 20px;
+    background: url(../images/bg-bn.png) repeat;
+    
+    .jo-banner-inner {
+        .pr;
+        top: -5px;
+        img {max-width: 100%; border: none;}
+        
+        
+        .title {
+            .pa;
+            top: 100px;
+            right: 80px;
+            text-align: right;
+            .font-family(@size:36px; @lh: 1.2;)
+        }
+        .subtitle {
+            .pa;
+            top: 240px;
+            right: 80px;
+            .font-family(@size:24px; @lh: 1.2;)
+        }
+    }
+}
+/*the pad style*/
+@media (min-width:768px) and (max-width:1000px) {
+.jo-banner {
+    padding-top: 40px;
+    padding-bottom: 10px;
+    
+    .jo-banner-inner {
+        .title {
+            .pa;
+            top: 20px;
+            right: 40px;
+            .font-family(@size:22px; @lh: 1.2;)
+        }
+        .subtitle {
+            .pa;
+            top: 120px;
+            right: 40px;
+            .font-family(@size:16px; @lh: 1.2;)
+        }
+    }
+}
+}
+
+/*the phone style*/
+@media only screen and (max-width: 767px){
+.jo-banner {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    
+    .jo-banner-inner {
+        .ps;
+        .title {
+            .ps;
+            width: auto;
+            height: auto;
+            .font-family(@size:22px; @lh: 30px;@color: @white-color);
+            background:rgba(255,255,255,0.5);
+            padding: 10px;
+        }
+        .subtitle {
+            display: none;
+        }
+    }
+}
+}
+
+
+
+/*the img list style*/
+.jo-imglist {
+    padding-bottom: 80px;
+    background: url(../images/bg-bn.png) repeat;
+    .jo-max-width {
+        .flex;
+    }
+    
+    .jo-imgbox {
+        img {width: 100%;}
+    }
+    .jo-imgtitle {
+        .pr;
+        height: 120px;
+        top: -5px;
+        
+        .title {
+            .pa;
+            top: 30px;
+            left: 25px;
+            
+            a {.font-family(@size:26px,@color: @white-color);.tn;}
+        }
+        .subtitle {
+            .pa;
+            top: 71px;
+            left: 25px;
+            
+            a {.font-family(@size:18px,@color: @white-color);.tn;}
+        }
+        .fa-chevron-circle-right {
+            .pa;
+            right: 20px;
+            top: 35px;
+            font-size: 50px;
+            color: @white-color;
+            .tn
+        }
+    }
+}
+/*the pad style*/
+@media (min-width:760px) and (max-width:1000px) {
+.jo-imglist {
+    padding-bottom: 40px;
+    .jo-max-width {
+        .flex;
+    }
+    
+    .jo-imgbox {
+        img {width: 100%;}
+    }
+    .jo-imgtitle {
+        .pr;
+        height: 70px;
+        
+        .title {
+            .pa;
+            top: 15px;
+            left: 15px;
+            a {.font-family(@size:20px,@color: @white-color);}
+        }
+        .subtitle {
+            .pa;
+            top: 35px;
+            left: 15px;
+            
+            a {.font-family(@size:14px,@color: @white-color);}
+        }
+        .fa-chevron-circle-right {
+            .pa;
+            right: 10px;
+            top: 25px;
+            font-size: 30px;
+        }
+    }
+}
+}
+
+/*the phone style*/
+@media only screen and (max-width: 759px){
+.jo-imglist {
+    padding-bottom: 10px;
+    .jo-max-width {
+        display: block;
+        padding: 0 10px;
+    }
+    
+    .jo-imgbox {
+        width: 100%;
+        margin-bottom: 10px;
+        img {width: 100%;}
+    }
+    .jo-imgtitle {
+        .pr;
+        height: 70px;
+        
+        .title {
+            .pa;
+            top: 15px;
+            left: 15px;
+            a {.font-family(@size:20px,@color: @white-color);}
+        }
+        .subtitle {
+            .pa;
+            top: 35px;
+            left: 15px;
+            
+            a {.font-family(@size:14px,@color: @white-color);}
+        }
+        .fa-chevron-circle-right {
+            .pa;
+            right: 10px;
+            top: 25px;
+            font-size: 30px;
+        }
+    }
+}
+}
+
+
+
+/*the four Area style*/
+.jo-fourarea {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: #fff ;
+    .jo-max-width {
+        .flex;   
+    }
+    
+    .jo-item {
+        width: 23%;
+        .box {
+            img {max-width: 100%;}
+            h1 {
+                margin-top: -4px;
+                font-weight: 100;
+                .font-family(@size: 32px, @lh: 40px );
+            }
+            h4 {
+                margin-top: 20px;
+                font-weight: 100;
+                .font-family(@size:18px, @lh: 30px, @color: #7f7f7f );
+            }
+
+            .title {
+                padding-top: 45px;
+                .of;
+                .font-family(@size: 24px);
+            }
+            .summary {
+                padding-top: 20px;
+                .font-family(@lh: 28px);
+            }
+            .jo-btn {
+                display: block;
+                height: 52px;
+                width: 130px;
+                margin-top: 25px;
+                text-align: center;
+                background-size:100% 100%;
+                .font-family(@size: 18px,@lh: 52px,@color: @white-color);
+                .tn;
+            }
+        }
+    }
+}
+/*the phone style*/
+@media only screen and (max-width: 767px){
+.jo-fourarea {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: #fff ;
+    .jo-max-width {
+        display: block; 
+    }
+    
+    .jo-item {
+        width: 100%;
+        margin-bottom: 30px;
+        .box {
+            img {width: 100%;}
+            h1 {
+                margin-top: -4px;
+                font-weight: 100;
+                .font-family(@size: 22px, @lh: 40px );
+            }
+            h4 {
+                margin-top: 20px;
+                font-weight: 100;
+                .font-family(@size:18px, @lh: 30px, @color: #7f7f7f );
+            }
+
+            .title {
+                padding-top: 15px;
+                .of;
+                .font-family(@size: 24px);
+            }
+            .summary {
+                padding-top: 10px;
+                .font-family(@lh: 28px);
+            }
+            .jo-btn {
+                width: auto;
+                margin-top: 5px;
+            }
+        }
+    }
+} 
+}
+
+
+
+
+/*next style in linkus useing*/
+.classify {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    li {
+        list-style: none;
+        border-bottom: dashed #7f7f7f 1px;
+        height: 41px;
+        .font-family(@size: 13px, @lh: 41px, @color: #0087cd;);
+        a {color: #0087cd; text-decoration: underline;}
+    }
+}
+/*the blog style*/
+.jo-blog {
+    padding: 80px 0;
+    background: #fafafa;
+    .title {
+        .font-family(@size: 40px,@lh: 50px);
+    }
+    .subtitle {
+        .font-family(@size: 24px, @lh: 50px, @color: #7f7f7f);
+    }
+    .thumb-sum-more {
+        .pr;
+        margin-top: 40px;
+        padding-bottom: 30px;
+        
+        .thumbnail {
+            .pa;
+            width: 23%;
+            img {width: 100%;}
+        }
+        .summary {
+            margin-left: 27%;
+            .font-family(@size:13px, @lh: 28px, @color: #7f7f7f);
+            
+        }
+        .butten {
+            .pa;
+            left: 27%;
+            display: block;
+            height: 52px;
+            width: 150px;
+            margin-top: 25px;
+            text-align: center;
+            background-size:100% 100%;
+            .font-family(@size: 18px,@lh: 52px,@color: @white-color);
+            .tn;
+        }
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .jo-blog {
+        padding: 30px 0;
+
+    .thumb-sum-more {
+        margin-top: 20px;
+        padding-bottom: 15px;
+        
+        .thumbnail {
+            .ps;
+            width: 100%;
+        }
+        .summary {
+            margin-top: 15px;
+            margin-left: 0;  
+        }
+        .butten {
+            .ps;
+            left: auto;
+            width: auto;
+            margin-top: 15px;
+        }
+    }
+}
+}
+
+/*the article style*/
+.jo-article {
+    background: #fafafa;
+    padding-bottom: 60px;
+    .jo-max-width {
+        border-top: solid 1px #dedede;
+    }
+    .article {
+        .pr;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        width: 50%;
+        float: left;
+        
+        .thumb {
+          .pa;
+            width: 102px;
+            height: 102px;
+            img {
+                width: 102px;
+                height: 102px;
+            }
+        }
+        .content {
+            width: auto;
+            padding-left: 122px;
+            padding-right: 15px;
+            
+            .title {
+                .font-family(@size: 24px,@lh: 30px);
+            }
+            .summary {
+                padding-top: 20px;
+                .font-family(@size: 13px,@lh: 22px,@color: #7f7f7f);
+            }
+        }
+    }
+    .article:nth-child(3),.article:nth-child(4) {
+        border-top: solid 1px #dedede;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .jo-article {
+        padding-bottom: 30px;
+        .article {
+            width: 100%;
+            float: none;
+            border-top: solid 1px #dedede;
+        }
+        .article:nth-child(1) {
+            border-top: none;
+        }
+    }    
+}
+
+
+/*the linkus style*/
+.jo-linkus {
+    background: #f2f2f2;
+    padding: 80px 0;
+    
+    .jo-halfofone {
+        width: 50%;
+    }
+    h2 {
+        .font-family(@size: 24px);
+        font-weight: 400;
+    }
+    .classify {
+        padding-right: 25px;
+    }
+    .jo-weibo {
+        .flex;
+        
+        .jo-btn {
+            display: block;
+            height: 98px;
+            width: 31%;
+            background-size: 100% 100%;
+            text-align: center;
+            .font-family(@size: 24px, @lh: 98px, @color: @white-color);
+            .tn;
+            .of;
+        }
+        i {
+            font-size: 40px;
+        }
+    }
+    .jo-us {
+        margin-top: 40px;
+    }
+    .jo-link {
+        .item {
+            margin-bottom: 15px;
+            .font-family(@size: 13px);
+            .fa {
+                display: inline-block;
+                margin-right: 7px;
+                height: 40px;
+                line-height: 40px;
+                width: 40px;
+                text-align: center;
+                background: #414141;
+                color: @white-color;
+                font-size: 18px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 767px){
+.jo-linkus {
+     padding: 40px 0;
+    
+    .jo-halfofone {
+        width: 100%;
+    }
+    .jo-weibo {
+        display: block;
+        .jo-btn {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+    }
+}  
+}
+
+/*the copyright*/
+.jo-copyright {
+    padding: 100px 0;
+    text-align: center;
+    background: #fff;
+    .font-family(@size: 18px);
+}
+@media only screen and (max-width: 767px){
+.jo-copyright {
+    padding: 50px 0;
+    .font-family(@size: 13px);
+}  
+}

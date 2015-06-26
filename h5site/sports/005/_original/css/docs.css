@@ -1,0 +1,485 @@
+@charset 'UTF-8';
+/*通用样式*/
+/* line 4, docs.less */
+.mo-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px;
+  font-family: "Microsoft Yahei";
+}
+/*其它通用样式*/
+/* line 12, docs.less */
+.mo-a {
+  color: grey;
+}
+/*-----------------------------------------------------*/
+/*第一部分开始*/
+/* line 18, docs.less */
+.mo-header-wrapper {
+  position: relative;
+  overflow: hidden;
+  background-image: url('../images/banner.jpg');
+  background-size: cover;
+  background-position: top center;
+  z-index: 1;
+}
+/* line 27, docs.less */
+.mo-menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/* line 31, docs.less */
+.mo-menu .mo-menu-list {
+  padding: 9px 0;
+  text-align: center;
+}
+/* line 34, docs.less */
+.mo-menu .mo-menu-list .mo-a {
+  /*给所有a元素添加这个类*/
+  display: inline-block;
+  padding: 14px 30px;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 13px;
+}
+/* line 43, docs.less */
+.mo-menu .mo-menu-list .mo-a:hover,
+.mo-menu .mo-menu-list .mo-a.hover {
+  background: #ff8059;
+}
+/* line 50, docs.less */
+.mo-header {
+  margin: 0;
+  padding: 145px 0 156px 0;
+}
+/* line 53, docs.less */
+.mo-header .mo-title {
+  padding: 0;
+  margin: 0;
+  font-size: 50px;
+  text-align: center;
+  font-weight: bold;
+}
+/* line 59, docs.less */
+.mo-header .mo-title .mo-logo {
+  display: inline-block;
+  background: #ff8059;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #FFFFFF;
+  padding: 20px 14px;
+  font-size: 50px;
+  margin: 0;
+  letter-spacing: -1px;
+}
+/* line 74, docs.less */
+.mo-banner-wrapper {
+  background: rgba(60, 39, 38, 0.8);
+}
+/* line 76, docs.less */
+.mo-banner-wrapper .mo-banner {
+  padding: 86px 0 90px 0;
+}
+/* line 78, docs.less */
+.mo-banner-wrapper .mo-banner .ct-color {
+  font-size: 46px;
+  color: #fff;
+  padding: 0 30px;
+  margin: 0;
+  margin-bottom: 27px;
+}
+/* line 85, docs.less */
+.mo-banner-wrapper .mo-banner .banner-p {
+  color: #fff;
+  opacity: 0.5;
+  font-size: 24px;
+  padding: 0 30px;
+  margin: 0;
+}
+/*第一部分 Pad样式*/
+@media (min-width: 768px) and (max-width: 1000px) {
+  /* line 99, docs.less */
+  .mo-menu .mo-menu-list .mo-a {
+    padding: 7px 15px;
+  }
+  /* line 104, docs.less */
+  .mo-header {
+    margin: 0;
+    padding: 105px 0 106px 0;
+  }
+  /* line 107, docs.less */
+  .mo-header .mo-title {
+    font-size: 30px;
+  }
+  /* line 109, docs.less */
+  .mo-header .mo-title .mo-logo {
+    padding: 10px 7px;
+    font-size: 30px;
+  }
+  /* line 116, docs.less */
+  .mo-banner-wrapper .mo-banner {
+    padding: 56px 0 60px 0;
+  }
+  /* line 118, docs.less */
+  .mo-banner-wrapper .mo-banner .ct-color {
+    font-size: 26px;
+    margin-bottom: 17px;
+  }
+  /* line 122, docs.less */
+  .mo-banner-wrapper .mo-banner .banner-p {
+    font-size: 18px;
+  }
+}
+/*第一部分 Phone样式*/
+@media only screen and (max-width: 767px) {
+  /* line 133, docs.less */
+  .mo-menu .mo-menu-list .mo-a {
+    padding: 7px 12px;
+  }
+  /* line 138, docs.less */
+  .mo-header {
+    margin: 0;
+    padding: 55px 0 66px 0;
+  }
+  /* line 141, docs.less */
+  .mo-header .mo-title {
+    font-size: 18px;
+  }
+  /* line 143, docs.less */
+  .mo-header .mo-title .mo-logo {
+    padding: 10px 7px;
+    font-size: 18px;
+  }
+  /* line 150, docs.less */
+  .mo-banner-wrapper .mo-banner {
+    padding: 36px 0 40px 0;
+  }
+  /* line 152, docs.less */
+  .mo-banner-wrapper .mo-banner .ct-color {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  /* line 156, docs.less */
+  .mo-banner-wrapper .mo-banner .banner-p {
+    font-size: 14px;
+  }
+}
+/*第一部分 结束*/
+/*第二部分 开始*/
+/* line 165, docs.less */
+.mo-part2 {
+  text-align: center;
+  padding: 60px 0;
+}
+/* line 168, docs.less */
+.mo-part2 .mo-title {
+  font-size: 30px;
+  color: #3d2220;
+  letter-spacing: -1px;
+  font-weight: normal;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 15px;
+}
+/* line 177, docs.less */
+.mo-part2 .mo-byline {
+  color: #ff9966;
+  display: block;
+  font-size: 20px;
+  font-style: italic;
+  letter-spacing: -1px;
+}
+/* line 184, docs.less */
+.mo-part2 .mo-content {
+  line-height: 25px;
+  font-size: 15px;
+  color: #8f8477;
+  padding: 0;
+  margin: 0;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+/* line 193, docs.less */
+.mo-part2 .pink {
+  background: #ff8059;
+  border-radius: 0;
+  box-shadow: none;
+  color: #fff;
+  font-size: 16px;
+}
+/*第二部分 Pad样式*/
+@media (min-width: 768px) and (max-width: 1000px) {
+  /* line 205, docs.less */
+  .mo-part2 .col {
+    margin-bottom: 60px;
+  }
+  /* line 208, docs.less */
+  .mo-part2 .mo-content {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  /* line 212, docs.less */
+  .mo-part2 .pink {
+    width: 80%;
+    padding: 0;
+  }
+}
+/*第二部分 Phone样式*/
+@media only screen and (max-width: 767px) {
+  /* line 222, docs.less */
+  .mo-part2 .col {
+    margin-bottom: 40px;
+  }
+  /* line 225, docs.less */
+  .mo-part2 .mo-content {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  /* line 229, docs.less */
+  .mo-part2 .pink {
+    width: 80%;
+    padding: 0;
+  }
+}
+/*第二部分 结束*/
+/*第3部分 开始*/
+/* line 238, docs.less */
+.mo-part3 {
+  text-align: center;
+  padding: 60px 0;
+  overflow: hidden;
+  background: #311917;
+}
+/* line 243, docs.less */
+.mo-part3 .mo-tabs {
+  overflow: hidden;
+  margin-top: -5em;
+}
+/* line 246, docs.less */
+.mo-part3 .mo-tabs header {
+  margin: 0 0 4.5em 0;
+  padding: 80px 0 0 0;
+  background: #3d2220;
+  display: block;
+  font-family: "Microsoft Yahei";
+}
+/* line 252, docs.less */
+.mo-part3 .mo-tabs header .mo-title {
+  letter-spacing: -1px;
+  font-size: 30px;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+/* line 259, docs.less */
+.mo-part3 .mo-tabs header .mo-byline {
+  margin: 18px 0 0 0;
+  letter-spacing: -1px;
+  font-size: 22px;
+  display: block;
+  font-weight: 200;
+  color: #ff9966;
+}
+/* line 267, docs.less */
+.mo-part3 .mo-tabs header .mo-titles {
+  margin-top: 50px;
+  text-align: center;
+  color: #fff;
+}
+/* line 271, docs.less */
+.mo-part3 .mo-tabs header .mo-titles li {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+/* line 278, docs.less */
+.mo-part3 .mo-tabs header .mo-titles li:hover,
+.mo-part3 .mo-tabs header .mo-titles li.active {
+  background: #ff8059;
+}
+/* line 285, docs.less */
+.mo-part3 .mo-slides {
+  padding: 0;
+  margin: 0;
+}
+/* line 288, docs.less */
+.mo-part3 .mo-slides li {
+  list-style: none;
+}
+/* line 290, docs.less */
+.mo-part3 .mo-slides li .mg-b {
+  margin-bottom: 24px;
+}
+/* line 294, docs.less */
+.mo-part3 .mo-slides .mo-thumb {
+  outline: none;
+}
+/* line 296, docs.less */
+.mo-part3 .mo-slides .mo-thumb .fit {
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  color: #fff;
+}
+/* line 302, docs.less */
+.mo-part3 .mo-slides .mo-thumb img {
+  display: block;
+  width: 100%;
+}
+/* line 306, docs.less */
+.mo-part3 .mo-slides .mo-thumb .mo-titlebar {
+  display: block;
+  background: #3d2220;
+  border-bottom: 1px solid #0c0606;
+  text-align: center;
+  font-weight: 600;
+  color: #FFFFFF;
+  padding: 1em 0 1em 0;
+}
+/*第3部分 Pad样式*/
+/*第3部分 Phone样式*/
+@media only screen and (max-width: 767px) {
+  /* line 325, docs.less */
+  .mo-part3 .mo-tabs header .mo-title {
+    font-size: 20px;
+  }
+  /* line 328, docs.less */
+  .mo-part3 .mo-tabs header .mo-titles {
+    padding: 0;
+  }
+  /* line 330, docs.less */
+  .mo-part3 .mo-tabs header .mo-titles li {
+    padding: 10px 14px;
+    font-size: 14px;
+    margin: 0 5px;
+  }
+  /* line 336, docs.less */
+  .mo-part3 .mo-tabs header .mo-byline {
+    font-size: 18px;
+  }
+}
+/*第3部分 结束*/
+/*第4部分 开始*/
+/* line 344, docs.less */
+.mo-part4 {
+  background: #ff8059;
+  padding: 77px 0 52px 0;
+  color: #361d1b;
+  font-size: 15px;
+}
+/* line 349, docs.less */
+.mo-part4 .mo-title {
+  font-size: 30px;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 16px;
+}
+/* line 356, docs.less */
+.mo-part4 .mo-subtitle {
+  font-size: 22px;
+  color: #361d1b;
+  padding: 0;
+  margin: 0;
+  display: block;
+  margin-bottom: 35px;
+}
+/* line 364, docs.less */
+.mo-part4 .mo-content {
+  padding: 0;
+  margin: 0;
+  line-height: 25px;
+  margin-bottom: 45px;
+}
+/* line 370, docs.less */
+.mo-part4 .red {
+  background: #361d1b;
+}
+/* line 373, docs.less */
+.mo-part4 .mg-b {
+  margin-bottom: 30px;
+}
+/*第4部分 Pad样式*/
+/*第4部分 Phone样式*/
+@media only screen and (max-width: 767px) {
+  /* line 384, docs.less */
+  .mo-part4 .ct-btn {
+    display: block;
+    width: 80%;
+    padding: 0;
+    margin: 0 auto;
+  }
+}
+/*第4部分 结束*/
+/*第5部分 开始*/
+/* line 395, docs.less */
+.mo-copyright {
+  background: #fff;
+  padding: 90px 0 52px 0;
+  color: #8f8477;
+  font-size: 15px;
+}
+/* line 400, docs.less */
+.mo-copyright p {
+  line-height: 25px;
+}
+/* line 403, docs.less */
+.mo-copyright .mo-title {
+  letter-spacing: -1px;
+  font-size: 30px;
+  color: #000;
+  font-weight: normal;
+}
+/* line 409, docs.less */
+.mo-copyright .style1 {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+/* line 413, docs.less */
+.mo-copyright .style1 .first {
+  padding-top: 0em;
+  border: none;
+}
+/* line 417, docs.less */
+.mo-copyright .style1 li {
+  padding: 0.80em 0em;
+  border-top: 1px solid #E8E8E8;
+}
+/* line 420, docs.less */
+.mo-copyright .style1 li a {
+  color: #8f8477;
+}
+/* line 425, docs.less */
+.mo-copyright .fa {
+  display: inline-block;
+  background: #dedede;
+  height: 45px;
+  width: 45px;
+  line-height: 45px;
+  text-align: center;
+  margin-right: 7px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #fff;
+}
+/*第5部分 结束*/
+/* line 440, docs.less */
+.copyright {
+  font-family: "Microsoft Yahei";
+  margin: 80px auto;
+  text-align: center;
+  color: #818181;
+}
+/* line 445, docs.less */
+.copyright span {
+  background: #f3f0db;
+  display: inline-block;
+  padding: 14px 24px;
+}
