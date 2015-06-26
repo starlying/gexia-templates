@@ -6,11 +6,11 @@ var fs = require('fs');
 var mime = require('mime');
 var aws = require('aws-sdk');
 var zip = require('gulp-zip');
+var args = require('yargs').usage('Usage: $0 --production|--dev --dir=[dir]').argv;
 var runSequence = require('run-sequence').use(gulp);
-aws.config.loadFromPath('./config/aws-dev.json');
 
-var uploadDirectoryPath = './posterh5show';
-var BUCKET_NAME = "templates.gex.im";
+var releaseType = 'dev';
+var domain = "gexia.com";
 
 function s3_getDirectoryFiles(directory, callback) {
     fs.readdir(directory, function (err, files) {
@@ -30,12 +30,13 @@ function s3_getDirectoryFiles(directory, callback) {
 }
 
 function s3_uploadFiles(remoteFilename, fileName, isTryAgain) {
+    remoteFilename = remoteFilename.toLowerCase();
     var fileBuffer = fs.readFileSync(fileName);
     var metaData = mime.lookup(fileName);
     var s3 = new aws.S3();
     s3.putObject({
         ACL: 'public-read',
-        Bucket: BUCKET_NAME,
+        Bucket: 'templates.' + domain,
         Key: remoteFilename,
         Body: fileBuffer,
         ContentType: metaData
@@ -54,10 +55,20 @@ function s3_uploadFiles(remoteFilename, fileName, isTryAgain) {
     });
 }
 
-gulp.task('dev-publish', function () {
-    s3_getDirectoryFiles(uploadDirectoryPath, function (file_with_path) {
-        var remoteFilename = file_with_path.replace("./", "");
-        var fileName = file_with_path;
-        s3_uploadFiles(remoteFilename, fileName, true);
-    });
+gulp.task('publish', function () {
+    aws.config.loadFromPath('./config/aws.json');
+    if (args.production) {
+        releaseType = 'production';
+        domain = "gexia.com";
+    } else {
+        releaseType = 'dev';
+        domain = "dev.gexia.com";
+    }
+    if (args.dir){
+        s3_getDirectoryFiles('./' + args.dir, function (file_with_path) {
+            var remoteFilename = file_with_path.replace("./", "");
+            var fileName = file_with_path;
+            s3_uploadFiles(remoteFilename, fileName, true);
+        });
+    }
 });
