@@ -20,6 +20,7 @@
     "rimraf": "^2.2.8",
     "run-sequence": "^1.0.2",
     "stream-combiner2": "^1.0.2",
-    "vinyl-source-stream": "*"
+    "vinyl-source-stream": "*",
+    "yargs": "^3.13.0"
   }
 }
