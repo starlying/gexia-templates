@@ -1,0 +1,96 @@
+<stl:config>
+    <stl:style>
+.jo-max-width {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px;
+}/*the foucs Img*/
+.jo-banner {
+  padding-top: 80px;
+  padding-bottom: 20px;
+  background: url({stl.templateUrl}/images/bg-bn.png) repeat;
+}
+.jo-banner .jo-banner-inner {
+  position: relative;
+  top: -5px;
+}
+.jo-banner .jo-banner-inner img {
+  max-width: 100%;
+  border: none;
+}
+.jo-banner .jo-banner-inner .title {
+  position: absolute;
+  top: 100px;
+  right: 80px;
+  text-align: right;
+  font-family: "Microsoft Yahei";
+  font-size: 36px;
+  line-height: 1.2;
+  color: rgba(0, 0, 0, 0.75);
+}
+.jo-banner .jo-banner-inner .subtitle {
+  position: absolute;
+  top: 240px;
+  right: 80px;
+  font-family: "Microsoft Yahei";
+  font-size: 24px;
+  line-height: 1.2;
+  color: rgba(0, 0, 0, 0.75);
+}
+    </stl:style>
+    <stl:style mediaType="pad">
+ .jo-banner {
+    padding-top: 40px;
+    padding-bottom: 10px;
+  }
+  .jo-banner .jo-banner-inner .title {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    font-family: "Microsoft Yahei";
+    font-size: 22px;
+    line-height: 1.2;
+    color: rgba(0, 0, 0, 0.75);
+  }
+  .jo-banner .jo-banner-inner .subtitle {
+    position: absolute;
+    top: 120px;
+    right: 40px;
+    font-family: "Microsoft Yahei";
+    font-size: 16px;
+    line-height: 1.2;
+    color: rgba(0, 0, 0, 0.75);
+  }
+    </stl:style>
+    <stl:style mediaType="phone">
+ .jo-banner {
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+  .jo-banner .jo-banner-inner {
+    position: static;
+  }
+  .jo-banner .jo-banner-inner .title {
+    position: static;
+    width: auto;
+    height: auto;
+    font-family: "Microsoft Yahei";
+    font-size: 22px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.75);
+    background: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+  }
+  .jo-banner .jo-banner-inner .subtitle {
+    display: none;
+  }
+    </stl:style>
+</stl:config>
+        <div class="jo-banner">
+        	<div class="jo-max-width jo-banner-inner">
+        		<stl:image src="{stl.templateUrl}/images/banner.png" alt="banner" />
+        		<div class="title"><stl:editor>如果你想变得更赞<br>我们为你助力</stl:editor></div>
+        		<div class="subtitle"><stl:textarea>携 NIKE FREE 一起奔跑、健身和生活</stl:textarea></div>
+        	</div>
+        </div>
+        

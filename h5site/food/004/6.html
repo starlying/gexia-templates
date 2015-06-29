@@ -1,0 +1,71 @@
+<stl:config>
+	<stl:style>
+		.mo-container { max-width: 1200px; margin: 0 auto; font-family: "Microsoft Yahei"; .mo-btn-more{ margin: 0 auto; width: 84px; height: 40px; line-height: 40px; display: block; padding: 0; background: #4ca89b; &:hover{ background: #45978b; } } .mo-btn-mat{ margin-top: 35px; } .mo-btn-matmin{ margin-top: 15px; } } .mo-a {color:grey;} .mo-padbbig{ padding-bottom: 50px;} .mo-padb40{ margin-bottom: 40px;} .mo-slogan2{ font-size: 40px; color: #4d5251; margin: 0; padding:0; font-weight: normal; padding-top: 60px; text-align: center; } .mo-line-big{ width: 360px; border-top: 1px solid #d0dcdb; height: 28px; margin: 0 auto; margin-top: 25px; } .mo-public{ max-width: 900px; margin: 0 auto; font-family: "Microsoft Yahei"; padding-bottom: 50px; .mo-title{ font-size: 22px; color: #4d5251; line-height: 1.5em; text-align: left; padding: 50px 0; } .mo-img{ border: 3px solid #9bcec7; padding: 15px; border-radius: 132px; display: block; margin: 0 auto; } .mo-cont{ font-size: 14px; color: #909090; line-height: 1.5em; text-align: left; margin: 0; padding-top: 30px; } .mo-btn{ font-size: 12px; color: #909090; line-height: 30px; height: 30px; width: 80px; margin: 15px 0; padding: 0; display: block; } }
+	</stl:style>
+	<stl:style mediaType="pad">
+		.mo-container { .mo-btn-more{ width: 80%; } } .mo-public{ padding-bottom: 25px; .mo-title{ text-align: center; padding: 20px 0; } .mo-cont{ text-align: center; padding-top: 20px; } .mo-btn{ width: 90%; margin: 0 auto; margin-top: 20px; } }
+	</stl:style>
+	<stl:style mediaType="phone">
+		.mo-container{ .mo-btn-more{ width: 90%; } } .mo-line-big{ width: 90%; } .mo-public{ padding-bottom: 25px; .mo-title{ text-align: center; padding: 20px 0; } .mo-cont{ text-align: center; padding-top: 20px; } .mo-btn{ width: 90%; margin: 0 auto; margin-top: 20px; } }
+	</stl:style>
+</stl:config>
+
+
+<div class="mo-container">
+	<div class="mo-slogan2"><stl:textarea>时光公益--用微笑和关爱让世界充满欢乐</stl:textarea></div>
+	<div class="mo-line-big"></div>
+</div>
+<stl:box>
+<div class="ct-row mo-public">
+
+	<stl:data name="title" datatype="text" displayname="标题" value="冬日里的暖阳-----咿呀总动员志愿者活动" />
+	<stl:data name="subtitle" datatype="editor" displayname="副标题" value="作为咿呀总动员公益项目的长期志愿单位，11月30日，我们雕刻时光的9位小伙伴连同家属共11人，来到朝阳区澳美听力语言康复中心，同咿呀总动员的组织" />
+	<stl:data name="url" datatype="text" displayname="链接" value="http://" />
+	<stl:data name="img" datatype="image" displayname="链接" value="{stl.templateUrl}/images/tu-04.jpg" />
+	<div class="col s4 m12 p12 mo-title">{stl.data.title}</div>
+	<div class="col s3 m12 p12"><img src="{stl.data.img}" class="mo-img" />
+	</div>
+	<div class="col s5 m12 p12">
+		<div class=" mo-cont">
+			{stl.data.subtitle}
+		</div>
+		<a href="{stl.data.url}" class="ct-btn mo-btn">查看详情</a>
+	</div>
+</div>
+</stl:box>
+<stl:box>
+<div class="ct-row mo-public">
+
+	<stl:data name="title" datatype="text" displayname="标题" value="关爱听障儿童，“我健康，我快乐”" />
+	<stl:data name="subtitle" datatype="editor" displayname="副标题" value="11月16日，北京艺丰雕刻时光咖啡文化有限公司的14位志愿者，来到东城区特殊教育学校，和中化招标国际有限责任公司团委的8位志愿者，一同参与了“咿呀" />
+	<stl:data name="url" datatype="text" displayname="链接" value="http://" />
+	<stl:data name="img" datatype="image" displayname="链接" value="{stl.templateUrl}/images/tu-05.jpg" />
+	<div class="col s4 m12 p12 mo-title">{stl.data.title}</div>
+	<div class="col s3 m12 p12"><img src="{stl.data.img}" class="mo-img" />
+	</div>
+	<div class="col s5 m12 p12">
+		<div class=" mo-cont">
+			{stl.data.subtitle}
+		</div>
+		<a href="{stl.data.url}" class="ct-btn mo-btn">查看详情</a>
+	</div>
+</div>
+</stl:box>
+<stl:box>
+<div class="ct-row mo-public">
+	<stl:data name="title" datatype="text" displayname="标题" value="让爱延续--聋健融合，共建欢乐" />
+	<stl:data name="subtitle" datatype="editor" displayname="副标题" value="活动围绕好朋友为主题，特邀8组听障儿童和包含我们的员工在内的志愿者组成的家庭与健听儿童家庭共同参与互动亲子游戏，通过绘本舞台剧、亲子互动游" />
+	<stl:data name="url" datatype="text" displayname="链接" value="http://" />
+	<stl:data name="img" datatype="image" displayname="链接" value="{stl.templateUrl}/images/tu-06.jpg" />
+	<div class="col s4 m12 p12 mo-title">{stl.data.title}</div>
+	<div class="col s3 m12 p12"><img src="{stl.data.img}" class="mo-img" />
+	</div>
+	<div class="col s5 m12 p12">
+		<div class=" mo-cont">
+			{stl.data.subtitle}
+		</div>
+		<a href="{stl.data.url}" class="ct-btn mo-btn">查看详情</a>
+	</div>
+
+</div>
+</stl:box>

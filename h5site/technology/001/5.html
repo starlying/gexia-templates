@@ -1,0 +1,362 @@
+<stl:config>
+    <stl:style>
+      .site-one-h {
+            color: #626c6e;
+            font-weight: bold;
+            letter-spacing: -0.05em;
+            line-height: 1em;
+            margin: 0 0 1em 0;
+        }
+        .site-one-a {
+            -moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+            -webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+            -o-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+            -ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+            transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+            color: #6ec7f5;
+            text-decoration: none;
+        }
+        .site-one-a:hover {
+            border-bottom-color: transparent;
+            color: #6ec7f5 !important;
+        }
+        .site-one-a:hover {
+            border-bottom-color: transparent;
+            color: #6ec7f5 !important;
+        }
+        .button {
+            -moz-appearance: none;
+            -webkit-appearance: none;
+            -o-appearance: none;
+            -ms-appearance: none;
+            appearance: none;
+            -moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+            -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+            -o-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+            -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+            transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+            background-color: transparent;
+            border-radius: 6px;
+            border: 0;
+            color: #626c6e !important;
+            cursor: pointer;
+            display: inline-block;
+            height: 3.35em;
+            line-height: 3.5em;
+            padding: 0 4em;
+            text-align: center;
+            text-decoration: none;
+            white-space: nowrap;
+            box-shadow: inset 0 0 0 1px #e2eaec;
+        }
+        .button.special {
+            background-color: #6ec7f5 !important;
+        }
+        .button.special:hover {
+            background-color: #86d0f7 !important;
+        }
+        #main {
+            padding: 0 1em;
+            background: #fff;
+        }
+       #main > .feature {
+            border-top: solid 1px #e2eaec;
+            padding: 6.5em 0 4.5em 0;
+        }
+        #main > .feature:first-child {
+            border-top: 0;
+            padding-top: 0;
+        }
+        #main > .feature.major {
+            padding-left: 6em;
+            padding-right: 6em;
+            text-align: center;
+        }
+        .icon.major {
+            border-radius: 100%;
+            border: solid 1px #e2eaec;
+            cursor: default;
+            display: inline-block;
+            margin: 0 0 2em 0;
+            text-align: center;
+        }
+        .icon.fa-paper-plane {
+            text-indent: -0.75em;
+        }
+        .icon.alt:before {
+            -moz-osx-font-smoothing: grayscale;
+            -webkit-font-smoothing: antialiased;
+            font-family: FontAwesome;
+            font-style: normal;
+            font-weight: normal;
+            text-transform: none !important;
+        }
+        .icon.alt:before {
+            color: #fff !important;
+            text-shadow: 1px 0 0 #6ec7f5, -1px 0 0 #6ec7f5, 0 1px 0 #6ec7f5, 0 -1px 0 #6ec7f5;
+        }
+        #three .l .item{
+            width: 45%;
+            padding: 0 0 1.5em 1.5em;
+        }
+        .image {
+            border-radius: 6px;
+            border: 0;
+            display: inline-block;
+            position: relative;
+        }
+        .image.fit {
+            display: block;
+            width: 100%;
+        }
+        .image .caption {
+            background: #232626;
+            background: rgba(35, 38, 38, 0.7);
+            border-radius: 0 0 6px 6px;
+            bottom: 0;
+            color: #fff;
+            font-size: 16px;
+            left: 0;
+            line-height: 1.5em;
+            margin: 0;
+            padding: 0.75em 0;
+            text-indent: 1em;
+            position: absolute;
+            width: 100%;
+        }
+         #three .button{
+            margin-top: 100px;
+         }
+        .image img {
+            border-radius: 6px;
+            display: block;
+        }
+        .image.fit img {
+            width: 100%;
+        }
+        .container {
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 70em;
+        }
+    </stl:style>
+    <stl:style mediaType="pc">
+       .icon.major{
+            width: 12em;
+            height: 12em;
+            line-height: 12em;
+        }
+        .icon.major:before{
+            font-size: 6em;
+        }
+        #three .r{
+            width: 33.3%;
+        }
+        #three .l{
+            width: 66.6%;
+        }
+    </stl:style>
+    <stl:style mediaType="pad">
+       #main > .feature.major h2{
+            font-size: 18px;
+        }
+        #main > .feature.major p{
+            font-size: 14px;
+        }
+        .icon.major{
+            width: 9em;
+            height: 9em;
+            line-height: 9em;
+        }
+        .icon.major:before{
+            font-size: 5em;
+        }
+        #two .l{
+            width: 80%;
+            padding: 0 10%;
+            text-align: center;
+        }
+        h2{
+            font-size: 1.3em;
+        }
+         .button{
+            height: 2.8em;
+            line-height: 2.8em;
+        }
+        #three .r{
+            width: 90%;
+            float: left;
+            padding: 5%;
+        }
+        #three .l{
+            width: 100%;
+            float: right;
+        }
+    </stl:style>
+    <stl:style mediaType="phone">
+       #main > .feature.major{
+            padding: 0 5%;
+        }
+        #main{
+            padding: 30px 0;
+        }
+        .icon.major{
+            width: 5em;
+            height: 5em;
+            line-height: 5em;
+        }
+        .icon.major:before{
+            font-size: 3em;
+        }
+        #main > .feature.major h2{
+            font-size: 14px;
+        }
+        #main > .feature.major p {
+            font-size: 12px;
+            line-height: 20px;
+            padding-bottom: 20px;
+        }
+        #main > .feature{
+            padding: 20px 0;
+        }
+        #three .r{
+            width: 90%;
+            float: left;
+            padding: 5%;
+        }
+        #three .l{
+            width: 100%;
+            float: right;
+        }
+        #three .l .item{
+            width: 90%;
+            padding: 10px 5%;
+        }
+        #three .r p{
+            font-size: 14px;
+            line-height: 20px;
+        }
+        #three .button{
+            margin-top: 20px;
+        }
+        #three .actions li{
+            text-align: center;
+        }
+        #main > .feature.major h2{
+            padding-top: 20px;
+        }
+    </stl:style>
+</stl:config>
+ <div id="main" class="container">
+    <div id="three" class="feature">
+        <div class="row clearfix">
+            <div class="fl l">
+                <div class="box alt">
+                    <div class="row uniform clearfix">
+                        <div class="item" style="float:left;">
+                            <stl:box>
+                                <stl:data name="title" datatype="textarea" displayname="标题" value="完全按照《政府信息公开条例》而设计" />
+                                <stl:data name="url" datatype="text" displayname="链接" value="http://www.gexia.com" />
+                                <stl:data name="pic" datatype="image" displayname="图片" value="{stl.templateUrl}/images/pic01.jpg" />
+                                <a href="{stl.data.url}" class="site-one-a image fit">
+                                    <h3 class="site-one-h caption">{stl.data.title}</h3>
+                                    <img src="{stl.data.pic}" alt="{stl.data.title}">
+                                </a>
+                            </stl:box>
+                        </div>
+                        <div class="fl item">
+                            <stl:box>
+                                <stl:data name="title" datatype="textarea" displayname="标题" value="目录分类快速创建并调整灵活" />
+                                <stl:data name="url" datatype="text" displayname="链接" value="http://www.gexia.com" />
+                                <stl:data name="pic" datatype="image" displayname="图片" value="{stl.templateUrl}/images/pic02.jpg" />
+                                <a href="{stl.data.url}" class="site-one-a image fit">
+                                    <h3 class="site-one-h caption">{stl.data.title}</h3>
+                                    <img src="{stl.data.pic}" alt="{stl.data.title}">
+                                </a>
+                            </stl:box>
+                        </div>
+                        <div class="fl item">
+                            <stl:box>
+                                <stl:data name="title" datatype="textarea" displayname="标题" value="以元数据为核心的政府信息资源库" />
+                                <stl:data name="url" datatype="text" displayname="链接" value="http://www.gexia.com" />
+                                <stl:data name="pic" datatype="image" displayname="图片" value="{stl.templateUrl}/images/pic03.jpg" />
+                                <a href="{stl.data.url}" class="site-one-a image fit">
+                                    <h3 class="site-one-h caption">{stl.data.title}</h3>
+                                    <img src="{stl.data.pic}" alt="{stl.data.title}">
+                                </a>
+                            </stl:box>
+                        </div>
+                        <div class="fl item">
+                            <stl:box>
+                                <stl:data name="title" datatype="textarea" displayname="标题" value="完善的依申请公开工作流程" />
+                                <stl:data name="url" datatype="text" displayname="链接" value="http://www.gexia.com" />
+                                <stl:data name="pic" datatype="image" displayname="图片" value="{stl.templateUrl}/images/pic04.jpg" />
+                                <a href="{stl.data.url}" class="site-one-a image fit">
+                                    <h3 class="site-one-h caption">{stl.data.title}</h3>
+                                    <img src="{stl.data.pic}" alt="{stl.data.title}">
+                                </a>
+                            </stl:box>
+                        </div>
+                        <div class="fl item">
+                            <stl:box>
+                                <stl:data name="title" datatype="textarea" displayname="标题" value="多种形式展现“绩效评估”结果" />
+                                <stl:data name="url" datatype="text" displayname="链接" value="http://www.gexia.com" />
+                                <stl:data name="pic" datatype="image" displayname="图片" value="{stl.templateUrl}/images/pic05.jpg" />
+                                <a href="{stl.data.url}" class="site-one-a image fit">
+                                    <h3 class="site-one-h caption">{stl.data.title}</h3>
+                                    <img src="{stl.data.pic}" alt="{stl.data.title}">
+                                </a>
+                            </stl:box>
+                        </div>
+                        <div class="fl item">
+                            <stl:box>
+                                <stl:data name="title" datatype="textarea" displayname="标题" value="灵活的应用场景和工作流机制" />
+                                <stl:data name="url" datatype="text" displayname="链接" value="http://www.gexia.com" />
+                                <stl:data name="pic" datatype="image" displayname="图片" value="{stl.templateUrl}/images/pic06.jpg" />
+                                <a href="{stl.data.url}" class="site-one-a image fit">
+                                    <h3 class="site-one-h caption">{stl.data.title}</h3>
+                                    <img src="{stl.data.pic}" alt="{stl.data.title}">
+                                </a>
+                            </stl:box>
+                        </div>
+
+<!--                         <stl:add>
+                            <div class="item">
+                                <stl:box>
+                                    <stl:data name="title" datatype="textarea" displayname="标题" value="《政府信息公开条例》" />
+                                    <stl:data name="url" datatype="text" displayname="正文" value="http://www.gexia.com" />
+                                    <stl:data name="pic" datatype="image" displayname="图片" value="{stl.templateUrl}/images/pic01.jpg" />
+                                    <a href="{stl.data.url}" class="site-one-a image fit">
+                                        <h3 class="site-one-h caption">{stl.data.title}</h3>
+                                        <img src="{stl.data.pic}" alt="{stl.data.title}">
+                                    </a>
+                                </stl:box>
+                            </div>
+                        </stl:add> -->
+
+                    </div>
+                </div>
+            </div>
+            <div class="fr r">
+                <h2 class="site-one-h">
+                    <stl:textarea>
+                       政府信息公开<br>
+                        解决方案
+                    </stl:textarea>
+                    </h2>
+                <stl:editor>
+                    <p>随着《中华人名共和国政府信息公开条例》的正式实施以及多年的政务实践，如何利用科学而有效的软件来进行政府信息公开工作的管理成为政府工作一大难题。我们充分分析政府现有资源和信息系统运行状况，开发设计政府信息公开软件，有效的解决政府在信息公开工作建设中面临的问题，保障了政府信息公开体系的建设效率，为各级政府机构快速建立政府信息公开提供了技术支持。</p>
+                    <br/>
+                    <p>系统可以根据不同的应用场景设计不同的工作流程，结合内容管理系统的信息审核机制进行信息流转，结合特有的模板管理方法实现丰富的前台展现方式。</p>
+                </stl:editor>
+                <ul class="actions">
+                    <li>
+                        <stl:a href="http://www.gexia.com" class="site-one-a button">
+                            了解更多
+                        </stl:a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

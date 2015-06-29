@@ -1,0 +1,61 @@
+<stl:config>
+	<stl:style>
+		.mo-container { max-width: 1200px; margin: 0 auto; font-family: "Microsoft Yahei"; .mo-btn-more{ margin: 0 auto; width: 84px; height: 40px; line-height: 40px; display: block; padding: 0; background: #4ca89b; &:hover{ background: #45978b; } } .mo-btn-mat{ margin-top: 35px; } .mo-btn-matmin{ margin-top: 15px; } } .mo-a {color:grey;} .mo-padbbig{ padding-bottom: 50px;} .mo-padb40{ margin-bottom: 40px;} .mo-paddtb{padding: 90px 0;} .mo-activity{ .mo-a{ color: #4d5251; text-decoration: none; } .mo-title{ font-size: 24px; color: #4d5251; margin: 0; padding: 0; text-align: center; font-weight: normal; } .mo-time{ font-size: 14px; color: #4ca89b; text-align: center; line-height: 38px; padding-bottom: 20px; } .mo-cont{ font-size: 14px; color: #909090; line-height: 24px; padding: 32px 0; border-color: #e4ebeb; } }
+	</stl:style>
+	<stl:style mediaType="pad">
+		.mo-container { .mo-btn-more{ width: 80%; } } .mo-paddtb{ padding-top: 50px; padding-bottom: 0;} .mo-activity{ margin-bottom: 50px; }
+	</stl:style>
+	<stl:style mediaType="phone">
+		.mo-container{ .mo-btn-more{ width: 90%; } } .mo-paddtb{padding-top: 50px; padding-bottom: 0;} .mo-activity{ margin-bottom: 50px; }
+	</stl:style>
+</stl:config>
+
+
+<div class="ct-row mo-container mo-paddtb">
+	<div class="col s4 m12 p4 mo-activity">
+<stl:box>
+	<stl:data name="title" datatype="text" displayname="标题" value="一杯间的幸福 ·精品咖啡品鉴会" />
+	<stl:data name="date" datatype="text" displayname="日期" value="2015年06月03日" />
+	<stl:data name="subtitle" datatype="editor" displayname="副标题" value="			理想中的咖啡馆可以开在任何地方，但好喝的咖啡和友善的人情味总是第一要素。雕刻时光长沙天马店在岳麓山下，静静生长了一年，我们的周岁生日快到啦~喜欢与爱咖啡的你们不期而遇，这一次，只为与你分享一杯好喝的精品咖啡。
+" />
+	<stl:data name="url" datatype="text" displayname="链接" value="http://" />
+
+	<h3 class="mo-title"><a href="{stl.data.url}" class="mo-a">{stl.data.title}</a></h3>
+	<div class="mo-time">{stl.data.date}</div>
+	<div class="mo-cont ct-border --top --bottom">{stl.data.subtitle}
+	</div>
+	<a href="{stl.data.url}" class="mo-btn-more ct-btn blue mo-btn-mat">查看详情</a>
+</stl:box>
+	</div>
+	
+	<div class="col s4 m12 p4 mo-activity">
+<stl:box>
+	<stl:data name="title" datatype="text" displayname="标题" value="天赋藏在最深的痛苦中" />
+	<stl:data name="date" datatype="text" displayname="日期" value="2015年06月03日" />
+	<stl:data name="subtitle" datatype="editor" displayname="副标题" value="	发掘天赋的过程，常常充满痛苦。为了它，我们与自己战斗，朝着理想前进的每一小步，都必须克服重重困境。而每一次痛苦，都让我们的灵魂变得更坚强。因为我们始终相信：“你愿意去做的那件事，才是你真正的天赋所在。”" />
+	<stl:data name="url" datatype="text" displayname="链接" value="http://" />
+
+	<h3 class="mo-title"><a href="{stl.data.url}" class="mo-a">{stl.data.title}</a></h3>
+	<div class="mo-time">{stl.data.date}</div>
+	<div class="mo-cont ct-border --top --bottom">{stl.data.subtitle}
+	</div>
+	<a href="{stl.data.url}" class="mo-btn-more ct-btn blue mo-btn-mat">查看详情</a>
+</stl:box>
+	</div>
+	
+	<div class="col s4 m12 p4 mo-activity">
+<stl:box>
+	<stl:data name="title" datatype="text" displayname="标题" value="笔尖上的景色 · 个人油画画展" />
+	<stl:data name="date" datatype="text" displayname="日期" value="2015年06月03日" />
+	<stl:data name="subtitle" datatype="editor" displayname="副标题" value="此刻我很轻松地伫立在这里，暂时放下心中所有的惦念和顾忌，犹如我静享家的温馨，漫步在我喜爱的景色中，偶然和三两喜悦的朋友窃窃私语，淡淡嬉笑。 我不在别处，我身心皆在“笔尖上的景色“中！
+" />
+	<stl:data name="url" datatype="text" displayname="链接" value="http://" />
+
+	<h3 class="mo-title"><a href="{stl.data.url}" class="mo-a">{stl.data.title}</a></h3>
+	<div class="mo-time">{stl.data.date}</div>
+	<div class="mo-cont ct-border --top --bottom">{stl.data.subtitle}
+	</div>
+	<a href="{stl.data.url}" class="mo-btn-more ct-btn blue mo-btn-mat">查看详情</a>
+</stl:box>
+	</div>
+</div>

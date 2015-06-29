@@ -1,0 +1,53 @@
+<stl:config>
+	<stl:style>
+		.mo-container { max-width: 1200px; margin: 0 auto; padding: 0 10px; font-family: "Microsoft Yahei"; } .mo-a { color: grey;} .mo-part4 { background: #ff8059; padding: 77px 0 52px 0; color: #361d1b; font-size: 15px; .mo-title { font-size: 30px; color: #fff; padding: 0; margin: 0; margin-bottom: 16px; } .mo-subtitle { font-size: 22px; color: #361d1b; padding: 0; margin: 0; display: block; margin-bottom: 35px; } .mo-content { padding: 0; margin: 0; line-height: 25px; margin-bottom: 45px; } .red { background: #361d1b; } .mg-b { margin-bottom: 30px; } }
+	</stl:style>
+	<stl:style mediaType="pad">
+
+	</stl:style>
+	<stl:style mediaType="phone">
+		.mo-part4 { .ct-btn { display: block; width: 80%; padding: 0; margin: 0 auto; } }
+	</stl:style>
+</stl:config>
+<div class="mo-part4">
+	<div class="mo-container ct-row">
+			<div class="col s6 m12 p6 mg-b">
+				<stl:box>
+					<stl:data name="title" datatype="text" displayname="标题" value="娱乐导航互不干扰"></stl:data>
+					<stl:data name="sub" datatype="textarea" displayname="副标题" value="路虎发现神行双屏显示技术揭秘"></stl:data>
+					<stl:data name="con" datatype="editor" displayname="内容" value="在驾车长途旅行时除了欣赏沿途的风光美景，车载娱乐系统也能为乘客提供很好的娱乐功能。比如路虎发现神行配备的后座娱乐系统，就是通过在前部头枕上内置的两个8英寸屏幕、Whitefire无线耳机和专用遥控器，给后排乘客提供优质的影音娱乐体验。"></stl:data>
+					<stl:data name="url" datatype="text" displayname="链接" value=""></stl:data>
+
+					<div>
+						<div>
+							<h2 class="mo-title ct-overflow"><a href="{stl.data.url}" style="color:#fff;">{stl.data.title}</a></h2>
+							<span class="mo-subtitle">{stl.data.sub}</span>
+						</div>
+						<p class="mo-content">{stl.data.con}</p>
+						<div>
+							<a href="{stl.data.url}" class="ct-btn red">查看详情</a>
+						</div>
+					</div>
+				</stl:box>
+			</div>
+			<div class="col s6 m12 p6 mg-b">
+				<stl:box>
+					<stl:data name="title" datatype="text" displayname="标题" value="路虎•揽胜极光秀不一样"></stl:data>
+					<stl:data name="sub" datatype="textarea" displayname="副标题" value="极光是最杰出的色彩大师"></stl:data>
+					<stl:data name="con" datatype="editor" displayname="内容" value="极光是造物主最绚丽的馈赠，也是路虎旗下备受瞩目的时尚SUV。当私人订制逐渐被大众接受，追求个性成为潮流。在众多设计中，绝对是最彰显个性的标签。对于充满个性的新生代来说，游走在都市中的绚丽极光，意味着对生活的态度——不跟随、不盲从。"></stl:data>
+					<stl:data name="url" datatype="text" displayname="链接" value=""></stl:data>
+
+					<div>
+						<div>
+							<h2 class="mo-title"><a href="{stl.data.url}" style="color:#fff;">{stl.data.title}</a></h2>
+							<span class="mo-subtitle">{stl.data.sub}</span>
+						</div>
+						<p class="mo-content">{stl.data.con}</p>
+						<div>
+							<a href="{stl.data.url}" class="ct-btn red">查看详情</a>
+						</div>
+					</div>
+				</stl:box>
+			</div>
+	</div>
+</div>

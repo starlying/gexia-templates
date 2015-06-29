@@ -1,0 +1,86 @@
+<stl:config>
+    <stl:style>
+        .jo-blue { background: url({stl.templateUrl}/images/threeofone.png) repeat-y; background-size: cover; } .jo-orange { background: url({stl.templateUrl}/images/threeoftwo.png) repeat-y; background-size: cover; } .jo-grey { background: url({stl.templateUrl}/images/threeofthree.png) repeat-y; background-size: cover; } .jo-max-width { max-width: 1200px; margin: 0 auto; padding: 0 10px; } /*next style in linkus useing*/ .classify { list-style: none; margin: 0; padding: 0; } .classify li { list-style: none; border-bottom: dashed #7f7f7f 1px; height: 41px; font-family: "Microsoft Yahei"; font-size: 13px; line-height: 41px; color: #0087cd; } .classify li .ma { color: #0087cd; text-decoration: underline; } .jo-fourarea { padding-top: 80px; padding-bottom: 80px; background: #fff; } .jo-fourarea .jo-max-width { display: -webkit-flex; display: flex; -webkit-flex-direction: row; flex-direction: row; -webkit-flex-wrap: nowrap; flex-wrap: nowrap; -webkit-justify-content: space-between; justify-content: space-between; } .jo-fourarea .jo-item { width: 23%; } .jo-fourarea .jo-item .box img { max-width: 100%; } .jo-fourarea .jo-item .box h1 { margin-top: -4px; font-weight: 100; font-family: "Microsoft Yahei"; font-size: 32px; line-height: 40px; color: rgba(0, 0, 0, 0.75); } .jo-fourarea .jo-item .box h4 { margin-top: 20px; font-weight: 100; font-family: "Microsoft Yahei"; font-size: 18px; line-height: 30px; color: #7f7f7f; } .jo-fourarea .jo-item .box .title { padding-top: 45px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-family: "Microsoft Yahei"; font-size: 24px; line-height: 1; color: rgba(0, 0, 0, 0.75); } .jo-fourarea .jo-item .box .summary { padding-top: 20px; font-family: "Microsoft Yahei"; font-size: 14px; line-height: 28px; color: rgba(0, 0, 0, 0.75); } .jo-fourarea .jo-item .box .jo-btn { display: block; height: 52px; width: 130px; margin-top: 25px; text-align: center; background-size: 100% 100%; font-family: "Microsoft Yahei"; font-size: 18px; line-height: 52px; color: rgba(255, 255, 255, 0.75); text-decoration: none; }
+    </stl:style>
+
+    <stl:style mediaType="phone">
+        .jo-fourarea { padding-top: 30px; padding-bottom: 30px; background: #fff; } .jo-fourarea .jo-max-width { display: block; } .jo-fourarea .jo-item { width: 100%; margin-bottom: 30px; } .jo-fourarea .jo-item .box img { width: 100%; } .jo-fourarea .jo-item .box h1 { margin-top: -4px; font-weight: 100; font-family: "Microsoft Yahei"; font-size: 22px; line-height: 40px; color: rgba(0, 0, 0, 0.75); } .jo-fourarea .jo-item .box h4 { margin-top: 20px; font-weight: 100; font-family: "Microsoft Yahei"; font-size: 18px; line-height: 30px; color: #7f7f7f; } .jo-fourarea .jo-item .box .title { padding-top: 15px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-family: "Microsoft Yahei"; font-size: 24px; line-height: 1; color: rgba(0, 0, 0, 0.75); } .jo-fourarea .jo-item .box .summary { padding-top: 10px; font-family: "Microsoft Yahei"; font-size: 14px; line-height: 28px; color: rgba(0, 0, 0, 0.75); } .jo-fourarea .jo-item .box .jo-btn { width: auto; margin-top: 5px; }
+    </stl:style>
+</stl:config>
+
+
+<!--
+        	作者：joozo@sina.com
+        	时间：2015-05-27
+        	描述：the four area begin
+        -->
+<div class="jo-fourarea">
+    <div class="jo-max-width">
+        <div class="jo-item">
+            <div class="box">
+                <h1><stl:editor>把每一步<br>变成力量</stl:editor></h1>
+                <h4><stl:editor>Nike+ 教练提供训练计划、<br>指导技巧及日常练习</stl:editor></h4>
+                <ul class="classify">
+                    <li><stl:a href="#" class="ma">跑步鞋类</stl:a>
+                    </li>
+                    <li><stl:a href="#" class="ma">篮球鞋类</stl:a>
+                    </li>
+                    <li><stl:a href="#" class="ma">NIKEiD专属定制</stl:a>
+                    </li>
+                    <li><stl:a href="#" class="ma">足球战靴</stl:a>
+                    </li>
+                    <li><stl:a href="#" class="ma">Jordan鞋类</stl:a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="jo-item">
+           <stl:box>
+            <div class="box">
+               <stl:data name="img" datatype="image" displayname="图片" value="{stl.templateUrl}/images/are1.png" />
+               <stl:data name="title" datatype="text" displayname="标题" value="男子NIKE Dri-FIT Cool" />
+               <stl:data name="summary" datatype="textarea" displayname="描述" value="运动袜抽屉盒全方位助您保持，干爽舒适NIKE 短裤适合各种。运动与穿搭风格的极致舒适体验。" />
+               <stl:data name="link" datatype="text" displayname="链接地址" value="http://gex.im" />
+                <img src="{stl.data.img}">
+                <div class="title">{stl.data.title}</div>
+                <div class="summary">{stl.data.summary}</div>
+                <a href="{stl.data.link}" class="jo-btn jo-blue">
+                    <i class="fa fa-chevron-circle-right"></i> 详细信息
+                </a>
+            </div>
+            </stl:box>
+        </div>
+        <div class="jo-item">
+           <stl:box>
+            <div class="box">
+               <stl:data name="img" datatype="image" displayname="图片" value="{stl.templateUrl}/images/are2.png" />
+               <stl:data name="title" datatype="text" displayname="标题" value="最自然的步伐体验" />
+               <stl:data name="summary" datatype="textarea" displayname="描述" value="肯尼亚卡伦津部落拥有根深蒂固的跑步文化。每一天，似乎都有世界冠军、纪录保持者 在这里诞生。" />
+               <stl:data name="link" datatype="text" displayname="链接地址" value="http://gex.im" />
+                <img src="{stl.data.img}">
+                <div class="title">{stl.data.title}</div>
+                <div class="summary">{stl.data.summary}</div>
+                <a href="{stl.data.link}" class="jo-btn jo-blue">
+                    <i class="fa fa-chevron-circle-right"></i> 详细信息
+                </a>
+            </div>
+            </stl:box>
+        </div>
+        <div class="jo-item">    
+            <stl:box>
+            <div class="box">
+               <stl:data name="img" datatype="image" displayname="图片" value="{stl.templateUrl}/images/are3.png" />
+               <stl:data name="title" datatype="text" displayname="标题" value="NIKE+RUNNING应用程序" />
+               <stl:data name="summary" datatype="textarea" displayname="描述" value="追踪你的跑步路线、距离、配速、时间、卡路里消耗量及NikeFuel 值，让你对自己的跑步数据更有数。" />
+               <stl:data name="link" datatype="text" displayname="链接地址" value="http://gex.im" />
+                <img src="{stl.data.img}">
+                <div class="title">{stl.data.title}</div>
+                <div class="summary">{stl.data.summary}</div>
+                <a href="{stl.data.link}" class="jo-btn jo-blue">
+                    <i class="fa fa-chevron-circle-right"></i> 详细信息
+                </a>
+            </div>
+            </stl:box>
+        </div>
+    </div>
+</div>

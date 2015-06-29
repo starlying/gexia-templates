@@ -4,7 +4,7 @@
         "categorySN": "branding",
         "templates": [
             {
-                "templateName": "gx-SOLOMO",
+                "templateName": "SOLOMO",
                 "templateSN": "1d8cde80d6746115",
                 "items": 8,
                 "thumbUrl": "template.png",
@@ -12,7 +12,7 @@
                 "description": ""
             },
             {
-                "templateName": "gx-Cartier",
+                "templateName": "Cartier",
                 "templateSN": "282e3a1a6e35f408",
                 "items": 8,
                 "thumbUrl": "template.png",
@@ -20,7 +20,7 @@
                 "description": ""
             },
             {
-                "templateName": "gx-LifeJoy",
+                "templateName": "LifeJoy",
                 "templateSN": "2b3e6bb22688461b",
                 "items": 7,
                 "thumbUrl": "template.jpg",
@@ -28,7 +28,7 @@
                 "description": ""
             },
             {
-                "templateName": "gx-Guilin",
+                "templateName": "Guilin",
                 "templateSN": "675881211e27af6b",
                 "items": 8,
                 "thumbUrl": "template.jpg",
@@ -36,7 +36,7 @@
                 "description": ""
             },
             {
-                "templateName": "gx-Singapore",
+                "templateName": "Singapore",
                 "templateSN": "ad93086fff2e3705",
                 "items": 6,
                 "thumbUrl": "template.jpg",
@@ -44,7 +44,7 @@
                 "description": ""
             },
             {
-                "templateName": "gx-Wedding",
+                "templateName": "Wedding",
                 "templateSN": "dd1111aa99011111",
                 "items": 7,
                 "thumbUrl": "template.jpg",
@@ -52,7 +52,7 @@
                 "description": ""
             },
             {
-                "templateName": "gx-Orange",
+                "templateName": "Orange",
                 "templateSN": "dd1111aa99011112",
                 "items": 6,
                 "thumbUrl": "template.jpg",
@@ -60,7 +60,7 @@
                 "description": ""
             },
             {
-                "templateName": "gx-House",
+                "templateName": "House",
                 "templateSN": "cc2cefaa927911ef",
                 "items": 5,
                 "thumbUrl": "template.jpg",

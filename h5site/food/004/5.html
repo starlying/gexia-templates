@@ -1,0 +1,66 @@
+<stl:config>
+	<stl:style>
+		.mo-container { max-width: 1200px; margin: 0 auto; font-family: "Microsoft Yahei"; .mo-btn-more{ margin: 0 auto; width: 84px; height: 40px; line-height: 40px; display: block; padding: 0; background: #4ca89b; &:hover{ background: #45978b; } } .mo-btn-mat{ margin-top: 35px; } .mo-btn-matmin{ margin-top: 15px; } } .mo-a {color:grey;} .mo-padbbig{ padding-bottom: 50px;} .mo-padb40{ margin-bottom: 40px;} .mo-probg{ background: #f3f3f3; text-align: center; } .mo-pro-img{ border: 6px solid #fff; display: block; margin: 0 auto; width: 100%; } .mo-pro-title{ font-size: 20px; color: #4d5251; line-height: 1.5em; padding-top: 15px; margin: 0; text-align: center; } .mo-pro-cont{ font-size: 14px; color: #909090; line-height: 1.5em; padding-top: 15px; margin: 0; text-align: center; }
+	</stl:style>
+	<stl:style mediaType="pad">
+		.mo-container { .mo-btn-more{ width: 80%; } }
+
+	</stl:style>
+	<stl:style mediaType="phone">
+		.mo-container{ .mo-btn-more{ width: 90%; } }
+	</stl:style>
+</stl:config>
+
+
+<div class="mo-probg">
+	<div class="ct-row mo-container">
+<div class="col s4 m12 p4 mo-padb40">
+	<stl:box>
+		<stl:data name="title" datatype="text" displayname="标题" value="意式咖啡之Espresso" />
+		<stl:data name="img" datatype="image" displayname="图片" value="{stl.templateUrl}/images/tu-01.jpg" />
+		<stl:data name="subtitle" datatype="editor" displayname="副标题" value="泡沫呈现的温暖色调、美妙的芬芳香味；	<br> 有如天鹅绒般柔软光滑的液体、强烈且持续的口感，" />
+		<stl:data name="url" datatype="text" displayname="链接" value="http://" />
+		<div><img src="{stl.data.img}" class="mo-pro-img" />
+		</div>
+		<div class="mo-pro-title">{stl.data.title}</div>
+		<div class="mo-pro-cont">
+			{stl.data.subtitle}
+		</div>
+		<a href="{stl.data.url}" class="mo-btn-more ct-btn blue mo-btn-matmin">查看详情</a>
+	</stl:box>
+</div>
+	
+	<div class="col s4 m12 p4 mo-padb40">
+	<stl:box>
+		<stl:data name="title" datatype="text" displayname="标题" value="时光影展 · 18岁的味蕾旅行季节" />
+		<stl:data name="img" datatype="image" displayname="图片" value="{stl.templateUrl}/images/tu-02.jpg" />
+		<stl:data name="subtitle" datatype="editor" displayname="副标题" value="旅行是件正经事儿，背上行囊走在青春与梦想的路上。 不要问我来自哪里， 不要问我为何孤身一人。" />
+		<stl:data name="url" datatype="text" displayname="链接" value="http://" />
+		<div><img src="{stl.data.img}" class="mo-pro-img" />
+		</div>
+		<div class="mo-pro-title">{stl.data.title}</div>
+		<div class="mo-pro-cont">
+			{stl.data.subtitle}
+		</div>
+		<a href="{stl.data.url}" class="mo-btn-more ct-btn blue mo-btn-matmin">查看详情</a>
+	</stl:box>
+</div>
+	
+	<div class="col s4 m12 p4 mo-padb40">
+	<stl:box>
+		<stl:data name="title" datatype="text" displayname="标题" value="中西 · 六月时光影展 | 夏至" />
+		<stl:data name="img" datatype="image" displayname="图片" value="{stl.templateUrl}/images/tu-03.jpg" />
+		<stl:data name="subtitle" datatype="editor" displayname="副标题" value="夏天的饮食，带有小森林里水滴的气息，田野，山间，
+				<br> 夏天的旅行，是法国南部普罗旺斯的阳光，清风、绿树、山" />
+		<stl:data name="url" datatype="text" displayname="链接" value="http://" />
+		<div><img src="{stl.data.img}" class="mo-pro-img" />
+		</div>
+		<div class="mo-pro-title">{stl.data.title}</div>
+		<div class="mo-pro-cont">
+			{stl.data.subtitle}
+		</div>
+		<a href="{stl.data.url}" class="mo-btn-more ct-btn blue mo-btn-matmin">查看详情</a>
+	</stl:box>
+</div>
+	</div>
+</div>

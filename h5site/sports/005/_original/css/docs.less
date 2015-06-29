@@ -1,0 +1,446 @@
+@charset 'UTF-8';
+/*通用样式*/
+
+.mo-container {
+	max-width: 1200px; //设置页面最大宽度为1200px
+	margin: 0 auto; //设置元素水平居中
+	padding: 0 10px; //设置内填充
+	font-family: "Microsoft Yahei"; //设置字体为微软雅黑字体
+}
+/*其它通用样式*/
+
+.mo-a {
+	color: grey;
+}
+/*-----------------------------------------------------*/
+/*第一部分开始*/
+
+.mo-header-wrapper {
+	position: relative;
+	overflow: hidden;
+	background-image: url('../images/banner.jpg');
+	background-size: cover;
+	background-position: top center;
+	z-index: 1;
+}
+
+.mo-menu {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	.mo-menu-list {
+		padding: 9px 0;
+		text-align: center;
+		.mo-a {
+			/*给所有a元素添加这个类*/
+			
+			display: inline-block;
+			padding: 14px 30px;
+			text-decoration: none;
+			color: #fff;
+			border-radius: 5px;
+			font-size: 13px;
+			&:hover, &.hover {
+				background: #ff8059;
+			}
+		}
+	}
+}
+
+.mo-header {
+	margin: 0;
+	padding: 145px 0 156px 0;
+	.mo-title {
+		padding: 0;
+		margin: 0;
+		font-size: 50px;
+		text-align: center;
+		font-weight: bold;
+		.mo-logo {
+			display: inline-block;
+			background: #ff8059;
+			text-decoration: none;
+			text-transform: uppercase;
+			font-weight: 900;
+			color: #FFFFFF;
+			padding: 20px 14px;
+			font-size: 50px;
+			margin: 0;
+			letter-spacing: -1px;
+		}
+	}
+}
+
+.mo-banner-wrapper {
+	background: rgba(60, 39, 38, 0.8);
+	.mo-banner {
+		padding: 86px 0 90px 0;
+		.ct-color {
+			font-size: 46px;
+			color: #fff;
+			padding: 0 30px;
+			margin: 0;
+			margin-bottom: 27px;
+		}
+		.banner-p {
+			color: #fff;
+			opacity: 0.5;
+			font-size: 24px;
+			padding: 0 30px;
+			margin: 0;
+		}
+	}
+}
+/*第一部分 Pad样式*/
+
+@media (min-width: 768px) and (max-width: 1000px) {
+	.mo-menu {
+		.mo-menu-list {
+			.mo-a {
+				padding: 7px 15px;
+			}
+		}
+	}
+	.mo-header {
+		margin: 0;
+		padding: 105px 0 106px 0;
+		.mo-title {
+			font-size: 30px;
+			.mo-logo {
+				padding: 10px 7px;
+				font-size: 30px;
+			}
+		}
+	}
+	.mo-banner-wrapper {
+		.mo-banner {
+			padding: 56px 0 60px 0;
+			.ct-color {
+				font-size: 26px;
+				margin-bottom: 17px;
+			}
+			.banner-p {
+				font-size: 18px;
+			}
+		}
+	}
+}
+/*第一部分 Phone样式*/
+
+@media only screen and (max-width: 767px) {
+	.mo-menu {
+		.mo-menu-list {
+			.mo-a {
+				padding: 7px 12px;
+			}
+		}
+	}
+	.mo-header {
+		margin: 0;
+		padding: 55px 0 66px 0;
+		.mo-title {
+			font-size: 18px;
+			.mo-logo {
+				padding: 10px 7px;
+				font-size: 18px;
+			}
+		}
+	}
+	.mo-banner-wrapper {
+		.mo-banner {
+			padding: 36px 0 40px 0;
+			.ct-color {
+				font-size: 20px;
+				margin-bottom: 10px;
+			}
+			.banner-p {
+				font-size: 14px;
+			}
+		}
+	}
+}
+/*第一部分 结束*/
+/*第二部分 开始*/
+
+.mo-part2 {
+	text-align: center;
+	padding: 60px 0;
+	.mo-title {
+		font-size: 30px;
+		color: #3d2220;
+		letter-spacing: -1px;
+		font-weight: normal;
+		padding: 0;
+		margin: 0;
+		margin-bottom: 15px;
+	}
+	.mo-byline {
+		color: #ff9966;
+		display: block;
+		font-size: 20px;
+		font-style: italic;
+		letter-spacing: -1px;
+	}
+	.mo-content {
+		line-height: 25px;
+		font-size: 15px;
+		color: #8f8477;
+		padding: 0;
+		margin: 0;
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	.pink {
+		background: #ff8059;
+		border-radius: 0;
+		box-shadow: none;
+		color: #fff;
+		font-size: 16px;
+	}
+}
+/*第二部分 Pad样式*/
+
+@media (min-width: 768px) and (max-width: 1000px) {
+	.mo-part2 {
+		.col {
+			margin-bottom: 60px;
+		}
+		.mo-content {
+			margin-top: 15px;
+			margin-bottom: 15px;
+		}
+		.pink {
+			width: 80%;
+			padding: 0;
+		}
+	}
+}
+/*第二部分 Phone样式*/
+
+@media only screen and (max-width: 767px) {
+	.mo-part2 {
+		.col {
+			margin-bottom: 40px;
+		}
+		.mo-content {
+			margin-top: 15px;
+			margin-bottom: 15px;
+		}
+		.pink {
+			width: 80%;
+			padding: 0;
+		}
+	}
+}
+/*第二部分 结束*/
+/*第3部分 开始*/
+
+.mo-part3 {
+	text-align: center;
+	padding: 60px 0;
+	overflow: hidden;
+	background: #311917;
+	.mo-tabs {
+		overflow: hidden;
+		margin-top: -5em;
+		header {
+			margin: 0 0 4.5em 0;
+			padding: 80px 0 0 0;
+			background: #3d2220;
+			display: block;
+			font-family: "Microsoft Yahei";
+			.mo-title {
+				letter-spacing: -1px;
+				font-size: 30px;
+				color: #fff;
+				margin: 0;
+				padding: 0;
+			}
+			.mo-byline {
+				margin: 18px 0 0 0;
+				letter-spacing: -1px;
+				font-size: 22px;
+				display: block;
+				font-weight: 200;
+				color: #ff9966;
+			}
+			.mo-titles {
+				margin-top: 50px;
+				text-align: center;
+				color: #fff;
+				li {
+					display: inline-block;
+					margin: 0 10px;
+					padding: 14px 20px;
+					text-decoration: none;
+					font-size: 20px;
+					cursor: pointer;
+					&:hover, &.active {
+						background: #ff8059;
+					}
+				}
+			}
+		}
+	}
+	.mo-slides {
+		padding: 0;
+		margin: 0;
+		li {
+			list-style: none;
+			.mg-b {
+				margin-bottom: 24px;
+			}
+		}
+		.mo-thumb {
+			outline: none;
+			.fit {
+				display: block;
+				width: 100%;
+				text-decoration: none;
+				color: #fff;
+			}
+			img {
+				display: block;
+				width: 100%;
+			}
+			.mo-titlebar {
+				display: block;
+				background: #3d2220;
+				border-bottom: 1px solid #0c0606;
+				text-align: center;
+				font-weight: 600;
+				color: #FFFFFF;
+				padding: 1em 0 1em 0;
+			}
+		}
+	}
+}
+/*第3部分 Phone样式*/
+@media only screen and (max-width: 767px) {
+	.mo-part3 {
+		.mo-tabs header .mo-title {
+			font-size: 20px;
+		}
+		.mo-tabs header .mo-titles {
+			padding: 0;
+			li {
+				padding: 10px 14px;
+				font-size: 14px;
+				margin: 0 5px;
+			}
+		}
+		.mo-tabs header .mo-byline {
+			font-size: 18px;
+		}
+	}
+}
+/*第3部分 结束*/
+/*第4部分 开始*/
+
+.mo-part4 {
+	background: #ff8059;
+	padding: 77px 0 52px 0;
+	color: #361d1b;
+	font-size: 15px;
+	.mo-title {
+		font-size: 30px;
+		color: #fff;
+		padding: 0;
+		margin: 0;
+		margin-bottom: 16px;
+	}
+	.mo-subtitle {
+		font-size: 22px;
+		color: #361d1b;
+		padding: 0;
+		margin: 0;
+		display: block;
+		margin-bottom: 35px;
+	}
+	.mo-content {
+		padding: 0;
+		margin: 0;
+		line-height: 25px;
+		margin-bottom: 45px;
+	}
+	.red {
+		background: #361d1b;
+	}
+	.mg-b {
+		margin-bottom: 30px;
+	}
+}
+/*第4部分 Pad样式*/
+
+@media (min-width: 768px) and (max-width: 1000px) {}
+/*第4部分 Phone样式*/
+
+@media only screen and (max-width: 767px) {
+	.mo-part4 {
+		.ct-btn {
+			display: block;
+			width: 80%;
+			padding: 0;
+			margin: 0 auto;
+		}
+	}
+}
+/*第4部分 结束*/
+/*第5部分 开始*/
+
+.mo-copyright {
+	background: #fff;
+	padding: 90px 0 52px 0;
+	color: #8f8477;
+	font-size: 15px;
+	p {
+		line-height: 25px;
+	}
+	.mo-title {
+		letter-spacing: -1px;
+		font-size: 30px;
+		color: #000;
+		font-weight: normal;
+	}
+	.style1 {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		.first {
+			padding-top: 0em;
+			border: none;
+		}
+		li {
+			padding: 0.80em 0em;
+			border-top: 1px solid #E8E8E8;
+			a {
+				color: #8f8477;
+			}
+		}
+	}
+	.fa {
+		display: inline-block;
+		background: #dedede;
+		height: 45px;
+		width: 45px;
+		line-height: 45px;
+		text-align: center;
+		margin-right: 7px;
+		border-radius: 5px;
+		text-decoration: none;
+		color: #fff;
+	}
+}
+/*第5部分 结束*/
+
+.copyright {
+	font-family: "Microsoft Yahei";
+	margin: 80px auto;
+	text-align: center;
+	color: #818181;
+	span {
+		background: #f3f0db;
+		display: inline-block;
+		padding: 14px 24px;
+	}
+}

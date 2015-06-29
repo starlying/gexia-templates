@@ -1,0 +1,31 @@
+<stl:config>
+	<stl:style>
+		.mo-container { max-width: 1200px; margin: 0 auto; font-family: "Microsoft Yahei"; .mo-btn-more{ margin: 0 auto; width: 84px; height: 40px; line-height: 40px; display: block; padding: 0; background: #4ca89b; &:hover{ background: #45978b; } } .mo-btn-mat{ margin-top: 35px; } .mo-btn-matmin{ margin-top: 15px; } } .mo-a {color:grey;} .mo-padbbig{ padding-bottom: 50px;} .mo-padb40{ margin-bottom: 40px;} .mo-banner{ background: center center no-repeat; background-size: cover; .mo-tu{ text-align: center; padding: 75px 0 30px 0; margin: 0; } .mo-title{ font-size: 40px; font-weight: 900; color: #fff; text-align: center; margin: 22px 0; padding: 0; line-height: 44px; } .mo-zi{ font-size: 16px; color: #fff; line-height: 24px; text-align: center; margin: 0; padding: 0; } }
+
+	</stl:style>
+	<stl:style mediaType="pad">
+		.mo-container { .mo-btn-more{ width: 80%; } } .mo-banner { .mo-title{ font-size: 32px; } }
+	</stl:style>
+	<stl:style mediaType="phone">
+		.mo-container{ .mo-btn-more{ width: 90%; } } .mo-banner { .mo-title{ font-size: 26px; line-height: 34px; } .mo-zi{ font-size: 14px; } }
+	</stl:style>
+</stl:config>
+
+<stl:box>
+	<stl:data name="title" datatype="text" displayname="标题" value="让时间、人和情感在此驻留，留下美好的回忆!" />
+	<stl:data name="subtitle" datatype="uditor" displayname="副标题" value="艺术是借着胶片纪录下时间流逝的过程，<br> 时间会在人身上、物质上留下印记，即雕刻时光的意义所在!" />
+	<stl:data name="url" datatype="text" displayname="链接" value="http://www.gexia.com" />
+	<stl:data name="pic" datatype="image" displayname="图片" value="{stl.templateUrl}/images/banner.jpg" />
+
+	<div class="mo-banner" style="background-image:url({stl.data.pic})">
+		<div class="mo-container mo-padbbig">
+			<div class="mo-tu">
+				<a href="{stl.data.url}"><img src="{stl.templateUrl}/images/banner-2.png">
+				</a>
+			</div>
+			<div class="mo-title">{stl.data.title}</div>
+			<div class="mo-zi">{stl.data.subtitle}</div>
+			<a href="{stl.data.url}" class="mo-btn-more ct-btn blue mo-btn-mat">查看详情</a>
+		</div>
+	</div>
+</stl:box>
