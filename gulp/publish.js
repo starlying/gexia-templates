@@ -1,11 +1,9 @@
 var gulp = require('gulp');
 var replace = require('gulp-replace');
-var uglify = require('gulp-uglify');
-var rimraf = require('rimraf');
 var fs = require('fs');
 var mime = require('mime');
 var aws = require('aws-sdk');
-var zip = require('gulp-zip');
+var uuid = require('uuid');
 var args = require('yargs').usage('Usage: $0 --production|--dev --dir=[dir]').argv;
 var runSequence = require('run-sequence').use(gulp);
 

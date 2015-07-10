@@ -1,61 +1,57 @@
-[
-    {
-        "categoryName": "科技",
-        "categorySN": "technology",
-        "templates": [
-            {
-                "templateName": "exponent",
-                "templateSN": "001",
-                "items": 7,
-                "thumbUrl": "template.jpg",
-                "templateUrl": "",
-                "description": ""
-            }
-        ]
-    },
-		{
-        "categoryName": "运动",
-        "categorySN": "sports",
-        "templates": [
-            {
-                "templateName": "giant",
-                "templateSN": "003",
-                "items": 5,
-                "thumbUrl": "template.jpg",
-                "templateUrl": "",
-                "description": ""
-            },
-            {
-                "templateName": "nike",
-                "templateSN": "002",
-                "items": 9,
-                "thumbUrl": "template.jpg",
-                "templateUrl": "",
-                "description": ""
-            },
-            {
-                "templateName": "LANDROVER",
-                "templateSN": "005",
-                "items": 6,
-                "thumbUrl": "template.jpg",
-                "templateUrl": "",
-                "description": ""
-            }
-					
-        ]
-    },
-		{
-        "categoryName": "食品",
-        "categorySN": "food",
-        "templates": [
-            {
-                "templateName": "coffee",
-                "templateSN": "004",
-                "items": 7,
-                "thumbUrl": "template.jpg",
-                "templateUrl": "",
-                "description": ""
-            }
-        ]
-    }
-]
+[{
+    "categoryName": "科技",
+    "categorySN": "technology",
+    "templates": [{
+        "templateName": "exponent",
+        "templateSN": "001",
+        "items": 7,
+        "thumbUrl": "template.jpg",
+        "templateUrl": "",
+        "description": ""
+    }, {
+        "templateName": "peugeot",
+        "templateSN": "008",
+        "items": 7,
+        "thumbUrl": "template.jpg",
+        "templateUrl": "",
+        "description": ""
+    }]
+}, {
+    "categoryName": "运动",
+    "categorySN": "sports",
+    "templates": [{
+            "templateName": "giant",
+            "templateSN": "003",
+            "items": 5,
+            "thumbUrl": "template.jpg",
+            "templateUrl": "",
+            "description": ""
+        }, {
+            "templateName": "nike",
+            "templateSN": "002",
+            "items": 9,
+            "thumbUrl": "template.jpg",
+            "templateUrl": "",
+            "description": ""
+        }, {
+            "templateName": "LANDROVER",
+            "templateSN": "005",
+            "items": 6,
+            "thumbUrl": "template.jpg",
+            "templateUrl": "",
+            "description": ""
+        }
+
+    ]
+}, {
+    "categoryName": "食品",
+    "categorySN": "food",
+    "templates": [{
+        "templateName": "coffee",
+        "templateSN": "004",
+        "items": 7,
+        "thumbUrl": "template.jpg",
+        "templateUrl": "",
+        "description": ""
+    }]
+}]
